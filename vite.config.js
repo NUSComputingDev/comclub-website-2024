@@ -12,3 +12,21 @@ export default defineConfig({
     },
   }
 })
+
+export default defineConfig(({ command }) => {
+  const config = {
+    plugins: [react()],
+    base: '/',
+    css: {
+      postcss: {
+        plugins: [tailwindcss()],
+      },
+    }
+  }
+
+  if (command !== 'serve') {
+    config.base = '/comclub-website-2024/'
+  }
+
+  return config
+})
