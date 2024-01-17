@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from 'tailwindcss'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from 'tailwindcss';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => {
@@ -11,12 +11,12 @@ export default defineConfig(({ command }) => {
       postcss: {
         plugins: [tailwindcss()],
       },
-    }
-  }
+    },
+  };
 
   if (command !== 'serve') {
-    config.base = '/comclub-website-2024/'
+    config.base = '/comclub-website-2024/';
   }
 
-  return config
-})
+  return config;
+});
