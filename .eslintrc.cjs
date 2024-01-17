@@ -7,11 +7,20 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  ignorePatterns: ['dist'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
-  plugins: ['@stylistic', 'react-refresh'],
+  plugins: ['@html-eslint', '@stylistic', 'react-refresh'],
+  overrides: [
+    {
+      files: ['*.html'],
+      parser: '@html-eslint/parser',
+      extends: ['plugin:@html-eslint/recommended'],
+    },
+  ],
   rules: {
+    '@html-eslint/indent': ['error', 2],
+    '@html-eslint/quotes': ['error', 'single'],
     '@stylistic/array-bracket-spacing': ['error', 'never'],
     '@stylistic/comma-dangle': ['error', 'always-multiline'],
     '@stylistic/eol-last': ['error', 'always'],
