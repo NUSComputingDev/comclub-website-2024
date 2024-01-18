@@ -10,13 +10,24 @@ module.exports = {
   ignorePatterns: ['dist'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   settings: { react: { version: '18.2' } },
-  plugins: ['@html-eslint', '@stylistic', 'react-refresh'],
+  plugins: [
+    '@html-eslint',
+    '@stylistic',
+    '@typescript-eslint',
+    'react',
+    'react-refresh',
+  ],
   overrides: [
     {
       files: ['*.html'],
       parser: '@html-eslint/parser',
       extends: ['plugin:@html-eslint/recommended'],
     },
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      extends: ['plugin:react/recommended'],
+    }
   ],
   rules: {
     '@html-eslint/indent': ['error', 2],
