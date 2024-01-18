@@ -1,0 +1,13 @@
+.navigation-bar {
+  @apply
+    fixed
+    flex
+    items-center
+    justify-between
+    w-full
+    px-8
+    md:px-20
+    py-4
+    bg-white
+  ;
+}
