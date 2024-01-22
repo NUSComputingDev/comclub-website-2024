@@ -6,10 +6,7 @@ import './App.css';
 function App() {
   return (
     <>
-      {/* Header */}
-      <header className='w-full h-20'>
-        <NavigationBar />
-      </header>
+      <NavigationBar />
 
       {/* Main content */}
       <main className='w-full min-h-[100vh]'>
