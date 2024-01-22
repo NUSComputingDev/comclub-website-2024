@@ -5,7 +5,7 @@ import './NavigationMenuItem.css';
 interface NavigationMenuItemProps {
   link: string;
   label: string;
-  dropdown: boolean;
+  dropdown?: boolean;
 }
 
 function NavigationMenuItem(props: NavigationMenuItemProps) {
