@@ -1,0 +1,13 @@
+.navigation-menu-item {
+  @apply
+    relative
+    font-heading
+    p-4
+    md:px-0
+    text-black
+    hover:scale-[1.1]
+    hover:rounded-md
+    hover:bg-gray-100
+    md:hover:bg-transparent
+  ;
+}

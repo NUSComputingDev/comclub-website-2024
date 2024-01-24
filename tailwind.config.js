@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#4a69bd',
+        primary: '#365486',
+        outline: '#333333',
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
@@ -15,6 +16,9 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter var', 'sans-serif'],
+        subheading: ['Quicksand', 'sans-serif'],
+        heading: ['"DM Sans"', 'sans-serif'],
+        body: ['Lexend', 'sans-serif'],
       },
       boxShadow: {
         card: `
