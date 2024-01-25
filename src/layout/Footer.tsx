@@ -51,7 +51,7 @@ function Footer() {
           NUS Students&#39; Computing Club
         </h4>
         <p className='font-subheading text-sm'>
-          A constituent of the NUS Student Union
+          A constituent club of the NUS Students' Union
         </p>
 
         <div className='flex flex-row flex-wrap'>
