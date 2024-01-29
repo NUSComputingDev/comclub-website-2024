@@ -3,11 +3,31 @@
     relative
     font-heading
     p-4
-    md:px-0
+    md:p-0
     text-black
     hover:scale-[1.1]
     hover:rounded-md
-    hover:bg-gray-100
+    hover:bg-slate-100
     md:hover:bg-transparent
+  ;
+}
+
+.navigation-menu-item::before {
+  content: '';
+
+  @apply
+    absolute
+    block
+    w-full
+    h-0.5
+    bottom-0
+    left-0
+    bg-outline
+    transition-transform
+    duration-300
+    ease-out
+    scale-x-0
+    origin-top-left
+    hover:md:scale-x-100
   ;
 }
