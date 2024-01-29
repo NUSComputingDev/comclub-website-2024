@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { Home } from './pages';
 import NavigationBar from './layout/NavigationBar';
+import Footer from './layout/Footer';
 import './App.css';
 
 function App() {
@@ -15,8 +16,7 @@ function App() {
         </Routes>
       </main>
 
-      {/* Footer */}
-      <footer>NUSComputing</footer>
+      <Footer />
     </>
   );
 }

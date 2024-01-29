@@ -1,0 +1,17 @@
+.footer-banner {
+  @apply
+    sticky
+    flex
+    flex-col
+    w-full
+    px-8
+    md:px-20
+    pt-8
+    md:pt-10
+    pb-16
+    md:pb-20
+    gap-y-1
+    bg-primary
+    text-white
+  ;
+}

@@ -8,8 +8,7 @@
 
 html, body {
   font-family: 'Montserrat', sans-serif;
-  /* background-color: #4a69bd; */
-  /* color: #ffffff; */
+  overscroll-behavior: none;
 }
 
 a {
