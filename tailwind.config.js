@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: '#365486',
         outline: '#333333',
+        highlight: '#61afef',
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',

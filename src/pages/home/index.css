@@ -1,0 +1,78 @@
+section {
+  @apply
+    flex
+    flex-col
+    md:flex-row
+    items-center
+    justify-center
+    md:justify-around
+    h-[80vh]
+    px-8
+    md:px-20
+    gap-8
+    lg:gap-16
+  ;
+}
+
+.section-description {
+  @apply
+    w-96
+    max-w-full
+    lg:w-[32rem]
+  ;
+}
+
+.section-description>h1 {
+  @apply
+    text-5xl
+    lg:text-6xl
+    text-primary
+    font-heading
+    pb-4
+  ;
+}
+
+.section-description>h2 {
+  @apply
+    text-3xl
+    md:text-4xl
+    text-primary
+    font-subheading
+  ;
+}
+
+.section-description>p {
+  @apply
+    font-body
+  ;
+}
+
+.section-description>p>span {
+  @apply
+    text-highlight
+    font-bold
+  ;
+}
+
+.section-description>button {
+  @apply
+    mt-4
+    px-6
+    py-3
+    bg-primary
+    text-white
+    font-subheading
+    hover:scale-[1.1]
+    hover:shadow-lg
+    transition-all
+    duration-100
+    ease-out
+  ;
+}
+
+.section-graphic {
+  @apply
+    w-80
+    lg:w-[24rem]
+  ;
+}
