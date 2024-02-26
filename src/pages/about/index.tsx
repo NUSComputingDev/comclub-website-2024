@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import './index.css';
+import RolesSection from './RolesSection';
 
 function About() {
   return (
@@ -65,6 +66,7 @@ function About() {
         <h2 className='text-xl'>Introducing the</h2>
         <h1>26th Management Committee</h1>
       </div>
+      <RolesSection></RolesSection>
     </div>
   );
 }

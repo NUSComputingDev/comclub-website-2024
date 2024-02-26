@@ -1,0 +1,26 @@
+.wing {
+  @apply
+    my-8
+  ;
+}
+
+.wing>h1 {
+  @apply
+    text-3xl
+    text-primary
+    text-center
+    font-bold
+  ;
+}
+
+.member-container {
+  @apply
+    p-8
+    md:px-20
+    flex
+    flex-wrap
+    justify-center
+    gap-8
+    md:gap-16
+  ;
+}
