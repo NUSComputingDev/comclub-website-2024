@@ -1,0 +1,140 @@
+section {
+  @apply
+    flex
+    flex-col
+    md:flex-row
+    items-center
+    justify-center
+    md:justify-around
+    h-[80vh]
+    px-8
+    md:px-20
+    gap-8
+    lg:gap-16
+  ;
+}
+
+.section-description {
+  @apply
+    w-96
+    max-w-full
+    lg:w-[32rem]
+  ;
+}
+
+.section-description>h1 {
+  @apply
+    text-5xl
+    lg:text-6xl
+    text-primary
+    font-heading
+    pb-4
+  ;
+}
+
+.section-description>h2 {
+  @apply
+    text-3xl
+    md:text-4xl
+    text-primary
+    font-subheading
+  ;
+}
+
+.section-description>p {
+  @apply
+    font-body
+  ;
+}
+
+.section-description>p>span {
+  @apply
+    text-highlight
+    font-bold
+  ;
+}
+
+.section-graphic {
+  @apply
+    w-80
+    lg:w-[24rem]
+  ;
+}
+
+.banner {
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    p-20
+    bg-primary
+    text-white
+  ;
+}
+
+.banner>h1 {
+  @apply
+    text-3xl
+    text-center
+    font-bold
+  ;
+}
+
+.banner>p {
+  @apply
+    w-4/5
+    md:w-3/5
+    text-center
+  ;
+}
+
+.icon-section {
+  @apply
+    h-fit
+    p-20
+    justify-center
+    md:items-start
+    gap-20
+    md:gap-40
+    bg-slate-100
+  ;
+}
+
+.icon-container {
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    w-64
+  ;
+}
+
+.icon-container>h3 {
+  @apply
+    my-4
+    text-2xl
+    text-primary
+    font-bold
+  ;
+}
+
+.icon-container>p {
+  @apply
+    text-center
+  ;
+}
+
+.icon-bubble {
+  @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    w-40
+    h-40
+    rounded-full
+    bg-primary
+  ;
+}
