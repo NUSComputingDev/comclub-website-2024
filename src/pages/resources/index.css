@@ -1,0 +1,104 @@
+.resources {
+  @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-8
+    mt-8
+    mb-16
+    md:mb-32
+  ;
+}
+
+.resources>h1 {
+  @apply
+    mx-8
+    md:mx-64
+    text-3xl
+    font-bold
+    text-center
+    text-primary
+  ;
+}
+
+.resources>section {
+  @apply
+    h-fit
+  ;
+}
+
+.resource-window-container {
+  @apply
+    flex
+    flex-col
+    gap-8
+  ;
+}
+
+.resource-window-content {
+  @apply
+    w-[75vw]
+    md:w-[24rem]
+    lg:w-[32rem]
+    px-8
+    py-16
+    md:py-8
+    lg:py-2
+    flex
+    flex-col
+    md:flex-row
+    justify-start
+    items-center
+  ;
+}
+
+.resource-window-content>img {
+  @apply
+    h-36
+    lg:h-56
+    p-0
+    md:p-4
+    lg:p-12
+  ;
+}
+
+.resource-window-text>h4 {
+  @apply
+    text-xl
+    font-bold
+  ;
+}
+
+.resource-window-text>button {
+  @apply
+    mt-4
+    px-6
+    py-3
+    bg-primary
+    text-white
+    font-subheading
+    enabled:hover:scale-[1.1]
+    enabled:hover:shadow-lg
+    transition-all
+    duration-100
+    ease-out
+  ;
+}
+
+.resource-window-text>button:disabled {
+  @apply
+    bg-slate-500
+    opacity-80
+  ;
+}
+
+.resource-link-container {
+  @apply
+    flex
+    flex-col
+    gap-8
+    w-full
+    md:w-fit
+  ;
+}

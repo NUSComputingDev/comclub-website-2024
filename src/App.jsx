@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
-import { About, Home, Privacy } from './pages';
+import { About, Home, Privacy, Resources } from './pages';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
@@ -19,6 +19,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/about' element={<About />} />
+        </Routes>
+        <Routes>
+          <Route path='/resources' element={<Resources />} />
         </Routes>
       </main>
 
