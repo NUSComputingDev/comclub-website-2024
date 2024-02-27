@@ -2,13 +2,13 @@ import React from 'react';
 import WindowCard from '../../layout/WindowCard';
 import './RoleCard.css';
 
-interface FaceCardProps {
+interface RoleCardProps {
   name: string;
   role: string;
   imgSrc: string;
 }
 
-function RoleCard(props: FaceCardProps) {
+function RoleCard(props: RoleCardProps) {
   const content = (
     <div className='role-card'>
       <img src={props.imgSrc}></img>
