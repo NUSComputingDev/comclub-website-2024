@@ -1,7 +1,7 @@
 import React from 'react';
 import WindowCard from '../../layout/WindowCard';
 import { FaTelegramPlane } from 'react-icons/fa';
-import { SiLinktree } from "react-icons/si";
+import { SiLinktree } from 'react-icons/si';
 import './index.css';
 import ResourceLink from './ResourceLink';
 import FolderLink from './FolderLink';
