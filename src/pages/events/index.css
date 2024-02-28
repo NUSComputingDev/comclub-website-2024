@@ -1,0 +1,98 @@
+.events {
+  @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-8
+    mt-8
+    mb-16
+    md:mb-32
+  ;
+}
+
+.events>h1 {
+  @apply
+    mx-8
+    md:mx-64
+    text-3xl
+    font-bold
+    text-center
+    text-primary
+  ;
+}
+
+.events>section {
+  @apply
+    h-fit
+  ;
+}
+
+.searchbar {
+  @apply
+    w-[75vw]
+    md:w-[24rem]
+    lg:w-[32rem]
+    px-6
+    py-4
+    rounded-2xl
+    border-outline
+    border-2
+    flex
+    flex-row
+    justify-between
+    items-center
+  ;
+}
+
+.searchbar>input {
+  @apply
+    w-full
+    border-none
+  ;
+}
+
+.searchbar>input:focus {
+  @apply
+    outline-none
+  ;
+}
+
+.search-result-container {
+  @apply
+    w-[75vw]
+    md:w-[24rem]
+    lg:w-[32rem]
+    my-6
+    flex
+    flex-col
+    gap-4
+  ;
+}
+
+.search-result-container>button {
+  @apply
+    mt-4
+    px-6
+    py-3
+    bg-primary
+    text-white
+    font-subheading
+    hover:scale-[1.1]
+    hover:shadow-lg
+    transition-all
+    duration-100
+    ease-out
+  ;
+}
+
+.calendar-container {
+  @apply
+    flex
+    flex-col
+    gap-8
+    w-fit
+    md:w-[20rem]
+    lg:w-[24rem]
+  ;
+}
