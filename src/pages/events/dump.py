@@ -48,18 +48,18 @@ https://nus.campuslabs.com/engage/submitter/form/start/626464
 # temporary stopgap for article content
 # convert multiline articles into json
 if __name__ == '__main__':
-    articles = [
-        {
+    articles = {
+        "wellness_festival": {
             'title': 'SOC Wellness Festival',
             'body': wellness_festival_body,
-            'img': 'wellness_festival.jpg',
-            'link': 'wellness_festival'
+            'link': 'wellness_festival',
+            'imgSrc': 'wellness_festival.jpg',
         },
-        {
+        "bizcom_league": {
             'title': 'BIZCOM League',
             'body': bizcom_league_body,
             'link': 'bizcom_league',
-            'img': 'bizcom_league.jpg'
-        }
-    ]
+            'imgSrc': 'bizcom_league.jpg',
+        },
+    }
     json.dump(articles, open('articles.json', 'w+'))

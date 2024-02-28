@@ -23,7 +23,7 @@ function Events() {
 
           <div className='search-result-container'>
             {
-              articles.map((article) => {
+              Object.values(articles).map((article) => {
                 let snippet: string = article['snippet'];
                 // no easy css for multiline ellipsis, so create manually
                 if (snippet === undefined) {
