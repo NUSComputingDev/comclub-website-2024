@@ -49,17 +49,17 @@ https://nus.campuslabs.com/engage/submitter/form/start/626464
 # convert multiline articles into json
 if __name__ == '__main__':
     articles = {
-        "wellness_festival": {
+        'wellness_festival': {
             'title': 'SOC Wellness Festival',
             'body': wellness_festival_body,
             'link': 'wellness_festival',
-            'imgSrc': 'wellness_festival.jpg',
+            'imgSrc': '/articles/wellness_festival.jpg',
         },
-        "bizcom_league": {
+        'bizcom_league': {
             'title': 'BIZCOM League',
             'body': bizcom_league_body,
             'link': 'bizcom_league',
-            'imgSrc': 'bizcom_league.jpg',
+            'imgSrc': '/articles/bizcom_league.jpg',
         },
     }
     json.dump(articles, open('articles.json', 'w+'))
