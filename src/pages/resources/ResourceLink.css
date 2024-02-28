@@ -5,6 +5,7 @@
     justify-start
     items-center
     gap-4
+    w-full
     px-6
     py-4
     text-lg
@@ -31,7 +32,8 @@
 .resource-link>p {
   @apply
     relative
-    text-nowrap
+    break-all
+    truncate
     text-ellipsis
   ;
 }

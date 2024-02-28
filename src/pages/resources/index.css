@@ -99,6 +99,8 @@
     flex-col
     gap-8
     w-full
-    md:w-fit
+    max-w-[75vw]
+    md:w-[16rem]
+    lg:w-[24rem]
   ;
 }
