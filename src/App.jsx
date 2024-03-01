@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home } from './pages';
+import { Home, Privacy } from './pages';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
@@ -13,6 +13,7 @@ function App() {
       <main className='w-full min-h-[100vh]'>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/privacy' element={<Privacy />} />
         </Routes>
       </main>
 
