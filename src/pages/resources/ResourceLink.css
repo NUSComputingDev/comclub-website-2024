@@ -1,0 +1,59 @@
+.resource-link {
+  @apply
+    flex
+    flex-row
+    justify-start
+    items-center
+    gap-4
+    w-full
+    px-6
+    py-4
+    text-lg
+    bg-white
+    rounded-2xl
+    border-outline
+    border-2
+    overflow-hidden
+    drop-shadow-window
+    hover:scale-[1.1]
+    transition-all
+    duration-100
+    ease-out
+  ;
+}
+
+.resource-link-icon {
+  @apply
+    text-primary
+    text-2xl
+  ;
+}
+
+.resource-link>p {
+  @apply
+    relative
+    break-all
+    truncate
+    text-ellipsis
+  ;
+}
+
+.resource-link>p::before {
+  content: '';
+
+  @apply
+    absolute
+    block
+    w-full
+    h-0.5
+    bottom-0
+    left-0
+    bg-outline
+    transition-transform
+    duration-300
+    ease-out
+    scale-x-0
+    origin-top-left
+    hover:md:scale-x-100
+  ;
+}
