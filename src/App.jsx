@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
-import { About, Home, Privacy, Resources } from './pages';
+import { About, Article, Events, Home, Privacy, Resources } from './pages';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
@@ -12,13 +12,19 @@ function App() {
 
       {/* Main content */}
       <ScrollToTop />
-      <main className='w-full min-h-[100vh]'>
+      <main className='w-full'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/privacy' element={<Privacy />} />
         </Routes>
         <Routes>
           <Route path='/about' element={<About />} />
+        </Routes>
+        <Routes>
+          <Route path='/events'>
+            <Route path='' element={<Events />} />
+            <Route path=':articleLink' element={<Article />} />
+          </Route>
         </Routes>
         <Routes>
           <Route path='/resources' element={<Resources />} />
