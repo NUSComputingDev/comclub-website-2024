@@ -1,4 +1,5 @@
+import About from './about';
 import Home from './home';
 import Privacy from './privacy';
 
-export { Home, Privacy };
+export { About, Home, Privacy };

@@ -31,6 +31,9 @@ module.exports = {
           0 10px 16px -1px rgba(189,192,207,0.4)
         `,
       },
+      dropShadow: {
+        window: '8px 8px 0px #365486',
+      },
     },
   },
   plugins: [],

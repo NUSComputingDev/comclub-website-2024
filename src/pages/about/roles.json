@@ -1,0 +1,132 @@
+{
+  "Presidency": [
+    {
+      "name": "Javian Ng",
+      "role": "President"
+    },
+    {
+      "name": "Sean Kevin Dias",
+      "role": "General Secretary"
+    },
+    {
+      "name": "Jamie Ho",
+      "role": "Deputy General Secretary"
+    },
+    {
+      "name": "Rayson Yeap",
+      "role": "Tech Lead"
+    },
+    {
+      "name": "Lee Yong Ning",
+      "role": "Deputy Tech Lead"
+    },
+    {
+      "name": "Mervyn Seah",
+      "role": "Finance Secretary"
+    },
+    {
+      "name": "Vivien He",
+      "role": "Deputy Finance Secretary"
+    }
+  ],
+  "External Relations": [
+    {
+      "name": "Koo Jay-Lynn",
+      "role": "Vice President"
+    },
+    {
+      "name": "Wang Yu Qing",
+      "role": "Director, Publicity"
+    },
+    {
+      "name": "Althea Tan",
+      "role": "Deputy Director, Publicity (Content & Graphics)"
+    },
+    {
+      "name": "Davian Kho",
+      "role": "Deputy Director, Publicity (Photos & Video)"
+    },
+    {
+      "name": "Ophelia Teo",
+      "role": "Director, Marketing"
+    },
+    {
+      "name": "Khoo Pyn Zhern",
+      "role": "Deputy Director, Marketing (Merchandise)"
+    },
+    {
+      "name": "Natasha Koh",
+      "role": "Deputy Director, Marketing (Sponsorship)"
+    }
+  ],
+  "Internal Relations": [
+    {
+      "name": "Reina Tng",
+      "role": "Vice President"
+    },
+    {
+      "name": "Joshua Lek",
+      "role": "Director, Welfare"
+    },
+    {
+      "name": "Tricia Ang",
+      "role": "Deputy Director, Welfare"
+    },
+    {
+      "name": "Natasha Sanghar",
+      "role": "Director, Sports"
+    },
+    {
+      "name": "Chloe Ong",
+      "role": "Deputy Director, Sports"
+    }
+  ],
+  "Student Development": [
+    {
+      "name": "Ng Le Xuan",
+      "role": "Vice President"
+    },
+    {
+      "name": "Emily Tan",
+      "role": "Director, Academic Liaison"
+    },
+    {
+      "name": "Teo Hong Rui",
+      "role": "Deputy Director, Academic Liaison"
+    },
+    {
+      "name": "Martin Ng",
+      "role": "Deputy Director, Community Engagement"
+    },
+    {
+      "name": "Kong Shi Ting",
+      "role": "Director, Rag & Flag"
+    }
+  ],
+  "Student Life": [
+    {
+      "name": "Nathan Loo",
+      "role": "Vice President"
+    },
+    {
+      "name": "Raeeda",
+      "role": "Director, Freshman Orientation Projects"
+    },
+    {
+      "name": "Timothy Soon",
+      "role": "Deputy Director, Freshman Orientation Projects"
+    },
+    {
+      "name": "Wanjari Kimaya",
+      "role": "Deputy Director, Freshman Orientation Projects"
+    },
+    {
+      "name": "Toh Yi Hui",
+      "role": "Director, Student Engagement"
+    },
+    {
+      "name": "Ivan Yang",
+      "role": "Deputy Director, Student Engagement"
+    }
+  ]
+}

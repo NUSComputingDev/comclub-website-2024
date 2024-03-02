@@ -1,0 +1,35 @@
+.window {
+  @apply
+    rounded-2xl
+    border-outline
+    border-2
+    overflow-hidden
+    drop-shadow-window
+  ;
+}
+
+.action-bar {
+  @apply
+    flex
+    flex-row
+    p-2
+    bg-[#f2f2f2]
+    border-outline
+    border-b-2
+  ;
+}
+
+.action-button {
+  @apply
+    rounded-full
+    w-4
+    h-4
+    mx-1
+  ;
+}
+
+.window-content {
+  @apply
+    bg-white
+  ;
+}

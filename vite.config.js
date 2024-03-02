@@ -5,7 +5,15 @@ import tailwindcss from 'tailwindcss';
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => {
   const config = {
-    plugins: [react()],
+    plugins: [react(
+      {
+        babel: {
+          plugins: [
+            ['@babel/plugin-syntax-import-attributes'],
+          ],
+        },
+      },
+    )],
     base: '/',
     css: {
       postcss: {

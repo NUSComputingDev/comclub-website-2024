@@ -1,0 +1,40 @@
+.role-card {
+  @apply
+    w-48
+    p-4
+    flex
+    flex-col
+    items-start
+    gap-1
+  ;
+}
+
+.role-card>img {
+  @apply
+    rounded-md
+    w-32
+    h-32
+    object-cover
+    object-top
+    self-center
+  ;
+}
+
+.role-label {
+  @apply
+    h-20
+    m-2
+  ;
+}
+
+.role-label>h4 {
+  @apply
+    font-bold
+  ;
+}
+
+.role-label>p {
+  @apply
+    text-sm
+  ;
+}
