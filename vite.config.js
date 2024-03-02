@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
       {
         babel: {
           plugins: [
-            ['@babel/plugin-syntax-import-attributes', { legacy: true }],
+            ['@babel/plugin-syntax-import-attributes'],
           ],
         },
       },
