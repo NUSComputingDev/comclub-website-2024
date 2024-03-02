@@ -7,7 +7,7 @@ import './Article.css';
 interface ArticleProps {
   title: string;
   body: string;
-  imgSrc: string;
+  imgSrc?: string;
 }
 
 function Article() {
@@ -24,11 +24,14 @@ function Article() {
         content && <>
           <h1>{content.title}</h1>
 
-          <div className='article-img-container'>
-            <WindowCard
-              content={<img src={content.imgSrc}></img>}
-            ></WindowCard>
-          </div>
+          {/* { render only if there's an image } */}
+          {
+            content.imgSrc && <div className='article-img-container'>
+              <WindowCard
+                content={<img src={content.imgSrc}></img>}
+              ></WindowCard>
+            </div>
+          }
 
           <section>
             <div className='whitespace-pre-wrap'>{content.body}</div>
