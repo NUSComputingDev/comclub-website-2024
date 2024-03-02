@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
-import { About, Home } from './pages';
+import { About, Home, Privacy } from './pages';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
@@ -15,6 +15,7 @@ function App() {
       <main className='w-full min-h-[100vh]'>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/privacy' element={<Privacy />} />
         </Routes>
         <Routes>
           <Route path='/about' element={<About />} />

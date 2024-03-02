@@ -1,0 +1,55 @@
+.privacy {
+  @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-8
+    mt-8
+    mb-16
+    md:mb-32
+  ;
+}
+
+.privacy>h1 {
+  @apply
+    mx-8
+    md:mx-64
+    text-3xl
+    font-bold
+    text-center
+  ;
+}
+
+.privacy>section {
+  @apply
+    flex
+    flex-col
+    items-center
+    px-16
+    md:px-64
+    h-full
+    gap-4
+  ;
+}
+
+.privacy>section>h2 {
+  @apply
+    text-2xl
+    text-primary
+    text-center
+    font-bold
+  ;
+}
+
+.privacy>section>p {
+  @apply
+    self-start
+  ;
+}
+.privacy>section>p>span {
+  @apply
+    text-primary
+    font-bold
+  ;
+}
