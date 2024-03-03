@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
+import Carousel from './Carousel';
 
 function Home() {
   return (
@@ -18,6 +19,16 @@ function Home() {
         </div>
         <img src='hero_graphic.svg' className='section-graphic'></img>
       </section>
+
+      {/* latest announcements */}
+      <div className="latest-announcements bg-slate-100">
+        <div className="section-header bg-primary">
+          <h1>Latest Announcements</h1>
+        </div>
+        <div className="carousel-container">
+          <Carousel></Carousel>
+        </div>
+      </div>
 
       {/* events */}
       <section>
