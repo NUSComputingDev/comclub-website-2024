@@ -40,9 +40,9 @@ function Home() {
             There&#39;s always something <span>new</span> to look forward to.
             Keep an eye out for the latest Computing Club <span>events</span>!
           </p>
-          <button>
-            <Link to='./'>Events</Link>
-          </button>
+          <Link to='./events'>
+            <button>Events</button>
+          </Link>
         </div>
       </section>
 
@@ -56,9 +56,9 @@ function Home() {
             Set yourself up for <span>academic success</span> with our
             <span> study planner</span>!
           </p>
-          <button>
-            <Link to='./'>Study Planner</Link>
-          </button>
+          <Link to='./resources'>
+            <button>Resources</button>
+          </Link>
         </div>
         <img src='planner_graphic.svg' className='section-graphic'></img>
       </section>

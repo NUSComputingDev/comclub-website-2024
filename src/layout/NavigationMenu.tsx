@@ -11,7 +11,7 @@ function NavigationMenu() {
     'About': '/about',
     'Events': '/events',
     'Resources': '/resources',
-    'Photos': '/photos',
+    'Photos': 'https://www.flickr.com/photos/137141057@N04/albums/',
   };
 
   return (

@@ -68,8 +68,8 @@ function Resources() {
                 link='https://nusfastpay.nus.edu.sg/ccmerch/menu'
               ></FolderLink>
               <FolderLink
-                label='Others'
-                link='/'
+                label='Feedback'
+                link='https://feedback.nuscomputing.com/'
               ></FolderLink>
             </div>
           </div>
