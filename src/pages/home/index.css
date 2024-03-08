@@ -14,6 +14,57 @@ section {
   ;
 }
 
+.latest-announcements {
+  @apply
+  flex
+  flex-col
+  h-[80vh]
+}
+
+.section-header {
+  @apply
+    flex
+    flex-col
+    w-full
+    items-center
+    justify-center
+    h-[20vh]
+    px-4
+  ;
+}
+
+.section-header>h3 {
+  @apply
+    text-xl
+    font-heading
+    text-white
+  ;
+}
+
+.section-header>h1 {
+  @apply
+    text-4xl
+    md:text-5xl
+    lg:text-6xl
+    text-white
+    font-heading
+    pb-4
+    text-center
+  ;
+}
+
+.carousel-container {
+  @apply
+    h-[60vh]
+    pt-6
+    px-0
+    md:px-6
+    lg:px-20
+    overflow-hidden
+  ;
+}
+
+
 .section-description {
   @apply
     w-96
