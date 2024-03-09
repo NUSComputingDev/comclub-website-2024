@@ -1,19 +1,18 @@
 .container {
-    @apply
-        flex
-        flex-row
-        max-w-full
-        h-[30vh]
-        lg:h-[30vh]
-        items-center
-        justify-center
-        md:justify-around
-        px-2
-        md:gap-2
+  @apply
+    flex
+    flex-row
+    max-w-full
+    h-[30vh]
+    lg:h-[30vh]
+    items-center
+    justify-center
+    md:justify-around
+    px-2
+    md:gap-2
+  ;
+}
 
-    ;
-  }
-  
 .container>img {
   @apply
       object-cover
@@ -71,4 +70,3 @@
   ;
 }
 
-  
