@@ -29,7 +29,9 @@ section {
     items-center
     justify-center
     h-[20vh]
-    px-4
+    px-8
+    md:px-20
+    py-20
   ;
 }
 
@@ -43,11 +45,9 @@ section {
 
 .section-header>h1 {
   @apply
-    text-4xl
-    md:text-5xl
-    lg:text-6xl
+    text-3xl
     text-white
-    font-heading
+    font-bold
     pb-4
     text-center
   ;
@@ -55,12 +55,10 @@ section {
 
 .carousel-container {
   @apply
-    h-[60vh]
-    pt-6
     px-0
     md:px-6
     lg:px-20
-    overflow-hidden
+    pb-4
   ;
 }
 
