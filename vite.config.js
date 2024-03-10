@@ -21,10 +21,5 @@ export default defineConfig(({ command }) => {
       },
     },
   };
-
-  if (command !== 'serve') {
-    config.base = '/comclub-website-2024/';
-  }
-
   return config;
 });
