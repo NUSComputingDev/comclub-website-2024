@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
 import { About, Article, Events, Home, Privacy, Resources } from './pages';
+import { Toaster } from 'react-hot-toast';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
@@ -13,6 +14,7 @@ function App() {
       {/* Main content */}
       <ScrollToTop />
       <main className='w-full'>
+        <div><Toaster/></div>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/privacy' element={<Privacy />} />
