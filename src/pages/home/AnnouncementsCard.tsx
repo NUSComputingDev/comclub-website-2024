@@ -20,7 +20,7 @@ export default function AnnouncementsCard(props: AnnouncementsCardProps) {
         <h3>{props.date}</h3>
         <p>{props.desc}</p>
         <h4>
-            <Link to={props.link}>Read More</Link>
+          <Link to={props.link}>Read More</Link>
         </h4>
       </div>
     </div>
