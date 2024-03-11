@@ -1,5 +1,6 @@
 import React from 'react';
 import Calendar from 'react-calendar';
+import { toast } from 'react-hot-toast';
 import { FaSearch } from 'react-icons/fa';
 import articles from './articles.json' with {type: 'json'};
 import SearchResult from './SearchResult';
@@ -50,7 +51,7 @@ function Events() {
             }
 
             {/* TODO: handle this */}
-            <button className='' onClick={() => alert('More coming soon!')}>
+            <button className='' onClick={() => toast.error('More coming soon!')}>
               More Results
             </button>
           </div>
