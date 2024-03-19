@@ -1,8 +1,14 @@
 .item {
-    @apply
-      p-8
-      md:p-14
-    ;
+  @apply
+    py-8
+    lg:py-12
+  ;
+}
+
+.item>.window {
+  @apply
+    m-auto
+  ;
 }
 
 .slick-arrow.slick-next,
@@ -11,29 +17,30 @@
     flex
     justify-center
     items-center
-    h-24
-    w-24
+    h-20
+    w-20
     z-10
-    max-w-full
   ;
 }
 
 .slick-prev::before,.slick-next::before{
-   display:none;
+  @apply
+    hidden
+  ;
 }
 
 .arrows {
-    @apply
-      h-80
-      w-80
-      text-primary
-      opacity-60
-      z-10
-    ;
+  @apply
+    h-80
+    w-80
+    text-primary
+    opacity-60
+    z-10
+  ;
 }
 
 .arrows:hover {
-    @apply
-      opacity-100
-    ;
+  @apply
+    opacity-100
+  ;
 }

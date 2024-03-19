@@ -16,9 +16,11 @@ section {
 
 .latest-announcements {
   @apply
-  flex
-  flex-col
-  h-[80vh]
+    flex
+    flex-col
+    h-fit
+    md:min-h-[80vh]
+  ;
 }
 
 .section-header {
@@ -55,10 +57,12 @@ section {
 
 .carousel-container {
   @apply
-    px-0
-    md:px-6
-    lg:px-20
-    pb-4
+    h-fit
+    md:px-8
+    xl:px-16
+    2xl:px-32
+    pb-16
+    2xl:pb-8
   ;
 }
 
