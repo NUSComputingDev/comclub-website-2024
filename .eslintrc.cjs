@@ -39,7 +39,7 @@ module.exports = {
     '@stylistic/eol-last': ['error', 'always'],
     '@stylistic/indent': ['error', 2],
     '@stylistic/jsx-quotes': ['error', 'prefer-single'],
-    '@stylistic/max-len': ['error'],
+    '@stylistic/max-len': ['error', 120],
     '@stylistic/no-trailing-spaces': ['error'],
     '@stylistic/object-curly-spacing': ['error', 'always'],
     '@stylistic/quotes': ['error', 'single'],

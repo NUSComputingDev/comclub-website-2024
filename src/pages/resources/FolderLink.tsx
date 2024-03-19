@@ -9,7 +9,7 @@ interface FolderLinkProps {
 function FolderLink(props: FolderLinkProps) {
   return (
     <a className='folder-link' href={props.link} target='blank'>
-      <img src='folder_icon.svg'></img>
+      <img src='/folder_icon.svg'></img>
       <p>{props.label}</p>
     </a>
   );

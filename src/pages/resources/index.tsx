@@ -15,23 +15,27 @@ function Resources() {
 
       <section className='md:items-start'>
         <div className='resource-window-container'>
-          <WindowCard content={<div className='resource-window-content'>
-            <img src='planner_icon.svg'></img>
-            <div className='resource-window-text'>
-              <h4>Study Planner</h4>
-              <p>Chart out your academic journey.</p>
-              <button disabled>Coming Soon!</button>
+          <WindowCard content={
+            <div className='resource-window-content'>
+              <img src='/planner_icon.svg'></img>
+              <div className='resource-window-text'>
+                <h4>Study Planner</h4>
+                <p>Chart out your academic journey.</p>
+                <button disabled>Coming Soon!</button>
+              </div>
             </div>
-          </div>}></WindowCard>
+          }></WindowCard>
 
-          <WindowCard content={<div className='resource-window-content'>
-            <img src='sep_icon.svg'></img>
-            <div className='resource-window-text'>
-              <h4>SEP Points Tracker</h4>
-              <p>Monitor your SEP points.</p>
-              <button disabled>Coming Soon!</button>
+          <WindowCard content={
+            <div className='resource-window-content'>
+              <img src='/sep_icon.svg'></img>
+              <div className='resource-window-text'>
+                <h4>SEP Points Tracker</h4>
+                <p>Monitor your SEP points.</p>
+                <button disabled>Coming Soon!</button>
+              </div>
             </div>
-          </div>}></WindowCard>
+          }></WindowCard>
         </div>
 
         <div className='resource-link-container'>

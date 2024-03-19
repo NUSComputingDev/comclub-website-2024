@@ -11,22 +11,23 @@ interface AnnouncementsCardProps {
   link: string;
 }
 
-export default function AnnouncementsCard(props: AnnouncementsCardProps) {
-  const content = (
-    <div className='container'>
-      <img src={props.imgSrc}></img>
-      <div className='text-container'>
-        <h2>{props.title}</h2>
-        <h3>{props.date}</h3>
-        <p>{props.desc}</p>
-        <h4>
-          <Link to={props.link}>Read More</Link>
-        </h4>
-      </div>
-    </div>
-  );
-
+function AnnouncementsCard(props: AnnouncementsCardProps) {
   return (
-    <WindowCard content={content}></WindowCard>
+    <WindowCard content={
+      // TODO: flip flex dir if small
+      <div className='announcement-container'>
+        <img src={props.imgSrc}></img>
+        <div className='text-container'>
+          <h2>{props.title}</h2>
+          <h3>{props.date}</h3>
+          <p>{props.desc}</p>
+          <h4>
+            <Link to={props.link}>Read More</Link>
+          </h4>
+        </div>
+      </div>
+    }></WindowCard>
   );
 }
+
+export default AnnouncementsCard;

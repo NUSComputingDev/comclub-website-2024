@@ -16,17 +16,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/privacy' element={<Privacy />} />
-        </Routes>
-        <Routes>
           <Route path='/about' element={<About />} />
-        </Routes>
-        <Routes>
           <Route path='/events'>
             <Route path='' element={<Events />} />
             <Route path=':articleLink' element={<Article />} />
           </Route>
-        </Routes>
-        <Routes>
           <Route path='/resources' element={<Resources />} />
         </Routes>
       </main>

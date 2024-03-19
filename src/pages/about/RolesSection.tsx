@@ -16,7 +16,7 @@ function RolesSection() {
                 {
                   members.map((member) => {
                     const imgSrc: string =
-                      `members/${member.name.replace(/\s/g, '')}.jpg`;
+                      `/members/${member.name.replace(/\s/g, '')}.jpg`;
                     return <RoleCard
                       name={member.name}
                       role={member.role}
