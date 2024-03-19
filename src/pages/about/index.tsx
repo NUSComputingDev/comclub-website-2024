@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <section>
-        <img src='about_graphic.svg' className='section-graphic'></img>
+        <img src='/about_graphic.svg' className='section-graphic'></img>
         <div className='section-description'>
           <h1>About Us</h1>
           <p>
@@ -39,7 +39,7 @@ function About() {
       <section className='icon-section'>
         <div className='icon-container'>
           <div className='icon-bubble'>
-            <img src='vision_icon.svg'></img>
+            <img src='/vision_icon.svg'></img>
           </div>
           <h3>Our Vision</h3>
           <p>
@@ -51,7 +51,7 @@ function About() {
 
         <div className='icon-container'>
           <div className='icon-bubble'>
-            <img src='mission_icon.svg'></img>
+            <img src='/mission_icon.svg'></img>
           </div>
           <h3>Our Mission</h3>
           <p>
