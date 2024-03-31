@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import AnnouncementsCard from './AnnouncementsCard';
 import './Carousel.css';
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
-import announcements from './announcements.json' with {type: 'json'};
 
+type Announcement = {
+  id: number;
+  title: string;
+  description: string;
+  start_date: string;
+  end_date: string;
+  imgsrc: string;
+};
+
+type AnnouncementList = Announcement[];
 
 function NextArrow(props) {
     const { className, style, onClick } = props;
@@ -29,6 +38,8 @@ function NextArrow(props) {
 
 
 export default function Carousel() {
+  const [eventList, setEventList] = useState<AnnouncementList>([]);
+
   var settings = {
     dots: true,
     infinite: true,
@@ -59,17 +70,39 @@ export default function Carousel() {
       ]
   };
 
+  
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const events = await fetch (
+          "http://localhost:8000/events"
+        );
+
+        if (!events.ok) {
+          throw new Error("Error retrieving event data");
+        }
+
+        const eventData = await events.json();
+        setEventList(eventData);
+      } catch (error) {
+        console.error("Error fetching data:", error)
+      }
+    };
+  
+    fetchEvents();
+  }, [])
 
   return (
     <div className="slider-container">
     <Slider {...settings}>
-      {announcements.map((announcement, index) => (
+      {eventList.map((val, index) => (
         <div className='item' key={index}>
           <AnnouncementsCard
-            title={announcement.title}
-            desc={announcement.desc}
-            date={announcement.date}
-            imgSrc={announcement.imgSrc}
+            title={val.title}
+            desc={val.description}
+            start_date={val.start_date}
+            end_date={val.end_date}
+            imgSrc={val.imgsrc}
             link='./'
           />
         </div>
