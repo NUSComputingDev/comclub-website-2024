@@ -17,22 +17,22 @@ function Home() {
             the gaps between them and the school.
           </p>
         </div>
-        <img src='hero_graphic.svg' className='section-graphic'></img>
+        <img src='/hero_graphic.svg' className='section-graphic'></img>
       </section>
 
       {/* latest announcements */}
-      <div className="latest-announcements bg-slate-100">
-        <div className="section-header bg-primary">
+      <div className='latest-announcements bg-slate-100'>
+        <div className='section-header bg-primary'>
           <h1>Latest Announcements</h1>
         </div>
-        <div className="carousel-container">
+        <div className='carousel-container'>
           <Carousel></Carousel>
         </div>
       </div>
 
       {/* events */}
       <section>
-        <img src='events_graphic.svg' className='section-graphic'></img>
+        <img src='/events_graphic.svg' className='section-graphic'></img>
         <div className='section-description'>
           <h2>Wondering</h2>
           <h1>What&#39;s up?</h1>
@@ -60,7 +60,7 @@ function Home() {
             <button>Resources</button>
           </Link>
         </div>
-        <img src='planner_graphic.svg' className='section-graphic'></img>
+        <img src='/planner_graphic.svg' className='section-graphic'></img>
       </section>
     </div>
   );

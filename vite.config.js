@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from 'tailwindcss';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ command }) => {
-  const config = {
-    plugins: [react(
+export default defineConfig({
+  plugins: [
+    react(
       {
         babel: {
           plugins: [
@@ -13,13 +13,12 @@ export default defineConfig(({ command }) => {
           ],
         },
       },
-    )],
-    base: '/',
-    css: {
-      postcss: {
-        plugins: [tailwindcss()],
-      },
+    ),
+  ],
+  base: '/',
+  css: {
+    postcss: {
+      plugins: [tailwindcss()],
     },
-  };
-  return config;
+  },
 });

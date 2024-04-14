@@ -90,13 +90,13 @@ if __name__ == '__main__':
             'title': 'SOC Wellness Festival',
             'body': wellness_festival_body,
             'link': 'wellness_festival',
-            'imgSrc': 'https://nuscomputingdev.github.io/comclub-website-2024/articles/wellness_festival.jpg',
+            'imgSrc': '/articles/wellness_festival.jpg',
         },
         'bizcom_league': {
             'title': 'BIZCOM League',
             'body': bizcom_league_body,
             'link': 'bizcom_league',
-            'imgSrc': 'https://nuscomputingdev.github.io/comclub-website-2024/articles/bizcom_league.jpg',
+            'imgSrc': '/articles/bizcom_league.jpg',
         },
         'freshman_social_camp': {
             'title': 'Freshman Social Camp',
