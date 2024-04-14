@@ -44,6 +44,43 @@ So WHAT ARE YOU WAITING FOR⁉️SIGN UP NOW‼️ you won’t regret it 🤭
 https://nus.campuslabs.com/engage/submitter/form/start/626464
 '''
 
+fsc_body = '''
+Dates: 19th June - 22nd June 2024
+
+Theme: Harry Potter
+
+FSC is crafted to kickstart your university journey with enduring friendships and unforgettable experiences. Engage in a variety of physical and intellectual games, participate in team bonding exercises, and compete for exciting team and individual prizes. You will also have the opportunity to attend the beach finale event Bash together with your new friends, solidifying your friendships.
+
+Signup links will be released soon! Stay tuned!
+'''
+
+fow_body = '''
+Dates: 24th July - 27th July 2024
+
+Theme: Teenage Mutant Ninja Turtles
+
+FOW is a 4-day physical orientation camp where seniors help freshmen adapt to different aspects of university life through preparatory talks and team-building activities. Forge lasting friendships as you navigate campus resources and academic challenges together. Look forward to strategic team games that develop you both intellectually and physically.
+
+Signup links will be released soon! Stay tuned!
+'''
+
+ffc_body = '''
+Dates: 5th August - 7th August 2024
+
+Theme: Elementals: Rediscover your inner element
+
+Abstract: FFC is a 3-day physical summer camp, perfectly tailored for international students gearing up for matriculation closer to August. The camp offers an array of theme-based activities such as flag-building and exhilarating house face-offs. Engage in friendly competition alongside your housemates, strategizing to earn glory for your elemental faction in a series of thrilling challenges. End the camp on a high note with its campfire and barbecue finale under the stars.
+
+Signup links will be released soon! Stay tuned!
+'''
+
+bash_body = '''
+Event date: 16th August 2024
+
+A fun-filled beach finale event where freshmen and seniors come together to wrap up the entire orientation experience with a night of performances, games, and food. Held at Sentosa Beach, Bash 2024 offers an electrifying atmosphere with DJ sets, inflatable obstacle courses, and much more.
+
+Signup links will be released soon! Stay tuned!
+'''
 
 # temporary stopgap for article content
 # convert multiline articles into json
@@ -53,13 +90,37 @@ if __name__ == '__main__':
             'title': 'SOC Wellness Festival',
             'body': wellness_festival_body,
             'link': 'wellness_festival',
-            'imgSrc': 'https://nuscomputingdev.github.io/comclub-website-2024/articles/wellness_festival.jpg',
+            'imgSrc': '/articles/wellness_festival.jpg',
         },
         'bizcom_league': {
             'title': 'BIZCOM League',
             'body': bizcom_league_body,
             'link': 'bizcom_league',
-            'imgSrc': 'https://nuscomputingdev.github.io/comclub-website-2024/articles/bizcom_league.jpg',
+            'imgSrc': '/articles/bizcom_league.jpg',
+        },
+        'freshman_social_camp': {
+            'title': 'Freshman Social Camp',
+            'body': fsc_body,
+            'link': 'freshman_social_camp',
+            'imgSrc': '/announcements/fsc.jpg'
+        },
+        'freshman_orientation_camp': {
+            'title': 'Freshman Orientation Camp',
+            'body': fow_body,
+            'link': 'freshman_orientation_camp',
+            'imgSrc': '/announcements/fow.jpg'
+        },
+        'freshman_finale_camp': {
+            'title': 'Freshman Finale Camp',
+            'body': ffc_body,
+            'link': 'freshman_finale_camp',
+            'imgSrc': '/announcements/ffc.jpg'
+        },
+        'computing_bash': {
+            'title': 'Computing Bash',
+            'body': bash_body,
+            'link': 'computing_bash',
+            'imgSrc': '/announcements/bash.jpg'
         },
     }
     json.dump(articles, open('articles.json', 'w+'))
