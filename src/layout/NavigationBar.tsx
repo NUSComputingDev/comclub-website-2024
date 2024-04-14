@@ -8,7 +8,7 @@ function NavigationBar() {
     <header className='w-full h-20'>
       <div className='navigation-bar'>
         <Link to='/'>
-          <img src='/comclub_logo.png' className='h-12 p-2'></img>
+          <img src='/comclub_logo.png' className='h-14 p-2'></img>
         </Link>
         <NavigationMenu />
       </div>
