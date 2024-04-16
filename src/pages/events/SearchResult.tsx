@@ -14,7 +14,7 @@ function SearchResult(props: SearchResultProps) {
       <Link to={props.link}>
         <h4>{props.title}</h4>
       </Link>
-      <h5>{`https://nuscomputing.com${props.link}`}</h5>
+      {/* <h5>{`https://nuscomputing.com${props.link}`}</h5> */}
       <p>{props.snippet}</p>
     </div>
   );
