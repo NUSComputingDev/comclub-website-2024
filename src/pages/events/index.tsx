@@ -17,10 +17,10 @@ function Events() {
 
       <section className='md:items-start'>
         <div>
-          <div className='searchbar'>
+          {/* <div className='searchbar'>
             <input type='text'></input>
             <FaSearch />
-          </div>
+          </div> */}
 
           <div className='search-result-container'>
             {
@@ -58,11 +58,11 @@ function Events() {
         </div>
 
         {/* TODO: implement functionality */}
-        <div className='calendar-container'>
+        {/* <div className='calendar-container'>
           <WindowCard content={<div className='flex justify-center p-4'>
             <Calendar className='border-transparent'></Calendar>
           </div>}></WindowCard>
-        </div>
+        </div> */}
       </section>
     </div>
   );
