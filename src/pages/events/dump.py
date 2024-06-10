@@ -82,6 +82,14 @@ A fun-filled beach finale event where freshmen and seniors come together to wrap
 Signup links will be released soon! Stay tuned!
 '''
 
+computing_day_body = '''
+Computing Day 2024 is a vibrant celebration organized by the NUS Students' Computing Club and the Student Life Office, scheduled for August 14, 2024, at COM3 MPH, NUS. Under the theme "Code & Chill," this event aims to foster community spirit and pride among students, staff, and alumni of the School of Computing (SoC). The day is packed with activities that highlight the computing culture, including a mix of technical showcases and fun-filled engagements like a coding competition, VR gaming, student project exhibits, and traditional carnival games.
+
+The event welcomes all NUS members, focusing on encouraging student involvement and showcasing innovations from various Student Interest Groups (SIGs). Highlights include the opening ceremony with the Dean, a coding competition prize ceremony, and a closing ceremony that recaps the day's events. Additional attractions such as food booths, photobooths, and a merchandise booth ensure that there’s something for everyone.
+
+Designed to build a bridge between students, faculty, and alumni, Computing Day 2024 will provide a platform for showcasing computing projects, sharing experiences, and promoting an inclusive culture within SoC. With comprehensive planning and the participation of key stakeholders, the event is set to be a memorable day that celebrates the essence and excitement of computing at NUS.
+'''
+
 # temporary stopgap for article content
 # convert multiline articles into json
 if __name__ == '__main__':
@@ -122,5 +130,11 @@ if __name__ == '__main__':
             'link': 'computing_bash',
             'imgSrc': '/announcements/bash.jpg'
         },
+        'computing_day': {
+            'title': 'Computing Day',
+            'body': computing_day_body,
+            'link': 'computing_day',
+            'imgSrc': '/announcements/computing_day.png'
+        }
     }
     json.dump(articles, open('articles.json', 'w+'))
