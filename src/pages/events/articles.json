@@ -1,4 +1,16 @@
 {
+  "wellness_festival": {
+    "title": "SOC Wellness Festival",
+    "body": "\nHey SoC Students,\n\nAre you feeling the mid-semester slump? Is your brain starting to feel fried from staring at endless lines of code? If so, don\u2019t panic. We\u2019ve got the antidote for you!\n\nThis year, we are introducing Canine Companion: Interacting with Dogs, a collaboration between Student Life Office and Computing Club.\n\nRegistration is free for all NUS SoC students!\n\nPlease note:\nEvent is limited to 10-minute timeslot per person. You will be allocated to, and informed about a specific 10-minute timeslot within the window period that the event is conducted.\n\nDo check out some other exciting workshops under SoC Wellness Festival 2024 too\ud83d\ude0e\ud83d\ude0e:\n- Craft your own Musical Box\n- Build your own Air Plant Terrarium\n- Embrace Nature with Forest Therapy\n\nSlots are limited so do register your interest at https://forms.office.com/r/4vfPX0aiCF now!\n",
+    "link": "wellness_festival",
+    "imgSrc": "/articles/wellness_festival.jpg"
+  },
+  "bizcom_league": {
+    "title": "BIZCOM League",
+    "body": "\nHEY SOC\ud83e\udd13\nRecess week is almost here \ud83d\ude0b! are you looking for ways to destress?? \ud83d\ude0c AND meet new friends \ud83e\udd73\ud83e\udd73?\n\nJoin us at BIZCOM LEAGUE, and stand a chance to win:\n- HaiDiLao vouchers \ud83c\udf72 - Grab vouchers \ud83d\ude97\n- NTUC vouchers \ud83c\udf7e\n- JBL speakers \ud83d\udd08!\n- FREE JERSEYS \ud83d\udc55\nanddddd most importantly, IT\u2019s FREE!!!! \ud83e\udd11\n\n\nBIZCOM LEAGUE IS BACK AGAIN\ud83d\ude31\ud83d\ude31\ud83e\udd29\ud83e\udd29 between NUS Computing Club and NUS Bizad Club where you get to make some new Biz friends! (You may sign up in groups of 8 MAX, or even solo!)\nAll you have to do is sign up and play four sports (basketball\ud83c\udfc0 , dodgeball \ud83e\udd3e\u200d\u2640\ufe0f, ultimate frisbee\ud83e\udd4f , captain\u2019s ball \ud83c\udfd0) over the course of two days!\n\nWHEN?\n\u203c\ufe0f26 Feb 9am - 7pm\n\u203c\ufe0f27 Feb 9am - 7pm\n\nSo WHAT ARE YOU WAITING FOR\u2049\ufe0fSIGN UP NOW\u203c\ufe0f you won\u2019t regret it \ud83e\udd2d\nhttps://nus.campuslabs.com/engage/submitter/form/start/626464\n",
+    "link": "bizcom_league",
+    "imgSrc": "/articles/bizcom_league.jpg"
+  },
   "freshman_social_camp": {
     "title": "Freshman Social Camp",
     "body": "\nDates: 19th June - 22nd June 2024\n\nTheme: Harry Potter\n\nFSC is crafted to kickstart your university journey with enduring friendships and unforgettable experiences. Engage in a variety of physical and intellectual games, participate in team bonding exercises, and compete for exciting team and individual prizes. You will also have the opportunity to attend the beach finale event Bash together with your new friends, solidifying your friendships.\n\nSignup links will be released soon! Stay tuned!\n",
@@ -13,7 +25,7 @@
   },
   "freshman_finale_camp": {
     "title": "Freshman Finale Camp",
-    "body": "\nDates: 5th August - 7th August 2024\n\nTheme: Elementals: Rediscover your inner element\n\nFFC is a 3-day physical summer camp, perfectly tailored for international students gearing up for matriculation closer to August. The camp offers an array of theme-based activities such as flag-building and exhilarating house face-offs. Engage in friendly competition alongside your housemates, strategizing to earn glory for your elemental faction in a series of thrilling challenges. End the camp on a high note with its campfire and barbecue finale under the stars.\n\nSignup links will be released soon! Stay tuned!\n",
+    "body": "\nDates: 5th August - 7th August 2024\n\nTheme: Elementals: Rediscover your inner element\n\nAbstract: FFC is a 3-day physical summer camp, perfectly tailored for international students gearing up for matriculation closer to August. The camp offers an array of theme-based activities such as flag-building and exhilarating house face-offs. Engage in friendly competition alongside your housemates, strategizing to earn glory for your elemental faction in a series of thrilling challenges. End the camp on a high note with its campfire and barbecue finale under the stars.\n\nSignup links will be released soon! Stay tuned!\n",
     "link": "freshman_finale_camp",
     "imgSrc": "/announcements/ffc.jpg"
   },
@@ -22,5 +34,11 @@
     "body": "\nEvent date: 16th August 2024\n\nA fun-filled beach finale event where freshmen and seniors come together to wrap up the entire orientation experience with a night of performances, games, and food. Held at Sentosa Beach, Bash 2024 offers an electrifying atmosphere with DJ sets, inflatable obstacle courses, and much more.\n\nSignup links will be released soon! Stay tuned!\n",
     "link": "computing_bash",
     "imgSrc": "/announcements/bash.jpg"
+  },
+  "computing_day": {
+    "title": "Computing Day",
+    "body": "\nComputing Day 2024 is a vibrant celebration organized by the NUS Students' Computing Club and the Student Life Office, scheduled for August 14, 2024, at COM3 MPH, NUS. Under the theme \"Code & Chill,\" this event aims to foster community spirit and pride among students, staff, and alumni of the School of Computing (SoC). The day is packed with activities that highlight the computing culture, including a mix of technical showcases and fun-filled engagements like a coding competition, VR gaming, student project exhibits, and traditional carnival games.\n\nThe event welcomes all NUS members, focusing on encouraging student involvement and showcasing innovations from various Student Interest Groups (SIGs). Highlights include the opening ceremony with the Dean, a coding competition prize ceremony, and a closing ceremony that recaps the day's events. Additional attractions such as food booths, photobooths, and a merchandise booth ensure that there\u2019s something for everyone.\n\nDesigned to build a bridge between students, faculty, and alumni, Computing Day 2024 will provide a platform for showcasing computing projects, sharing experiences, and promoting an inclusive culture within SoC. With comprehensive planning and the participation of key stakeholders, the event is set to be a memorable day that celebrates the essence and excitement of computing at NUS.\n",
+    "link": "computing_day",
+    "imgSrc": "/announcements/computing_day.png"
   }
 }
