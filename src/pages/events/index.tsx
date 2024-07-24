@@ -1,5 +1,4 @@
 import React from 'react';
-import Calendar from 'react-calendar';
 import { toast } from 'react-hot-toast';
 import { FaSearch } from 'react-icons/fa';
 import articles from './articles.json' with {type: 'json'};
@@ -7,6 +6,7 @@ import SearchResult from './SearchResult';
 import WindowCard from '../../layout/WindowCard';
 import './index.css';
 import 'react-calendar/dist/Calendar.css';
+import Calendar from './Calendar';
 
 function Events() {
   return (
@@ -16,11 +16,11 @@ function Events() {
       </h1>
 
       <section className='md:items-start'>
-        <div>
-          {/* <div className='searchbar'>
+        {/* <div>
+          <div className='searchbar'>
             <input type='text'></input>
             <FaSearch />
-          </div> */}
+          </div>
 
           <div className='search-result-container'>
             {
@@ -48,14 +48,14 @@ function Events() {
                   ></SearchResult>
                 );
               })
-            }
+            } */}
 
-            {/* TODO: handle this */}
-            <button className='' onClick={() => toast.error('More coming soon!')}>
+        {/* TODO: handle this */}
+        {/* <button className='' onClick={() => toast.error('More coming soon!')}>
               More Results
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* TODO: implement functionality */}
         {/* <div className='calendar-container'>
@@ -63,6 +63,7 @@ function Events() {
             <Calendar className='border-transparent'></Calendar>
           </div>}></WindowCard>
         </div> */}
+        <Calendar />
       </section>
     </div>
   );
