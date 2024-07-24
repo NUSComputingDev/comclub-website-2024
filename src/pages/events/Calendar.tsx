@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid';
 import {
   add,
@@ -44,6 +44,8 @@ export default function Calendar() {
     end: endOfMonth(firstDayCurrentMonth),
   });
 
+  const calendarRef = useRef<HTMLDivElement>(null);
+
   function previousMonth() {
     const firstDayNextMonth = add(firstDayCurrentMonth, { months: -1 });
     setCurrentMonth(format(firstDayNextMonth, 'MMM-yyyy'));
@@ -63,11 +65,24 @@ export default function Calendar() {
     )
     : articlesData;
 
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (calendarRef.current && !calendarRef.current.contains(event.target as Node)) {
+        setSelectedDay(null);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [calendarRef]);
+
   return (
     <div className='pt-16'>
       <div className='max-w-md px-4 mx-auto sm:px-7 md:max-w-4xl md:px-6'>
         <div className='md:grid md:grid-cols-2 md:divide-x md:divide-gray-200'>
-          <div className='md:pr-14'>
+          <div className='md:pr-14 h-[350px]' ref={calendarRef}>
             <div className='flex items-center'>
               <h2 className='flex-auto font-semibold text-gray-900'>
                 {format(firstDayCurrentMonth, 'MMMM yyyy')}
@@ -110,7 +125,10 @@ export default function Calendar() {
                 >
                   <button
                     type='button'
-                    onClick={() => setSelectedDay(day)}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedDay(day);
+                    }}
                     className={classNames(
                       selectedDay && isEqual(day, selectedDay) && 'text-white',
                       !selectedDay && isToday(day) && 'text-red-500',
