@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/solid';
 import {
   add,
@@ -14,7 +15,6 @@ import {
   startOfDay,
   startOfToday,
 } from 'date-fns';
-import React, { useState } from 'react';
 import articles from './articles.json';
 import SearchResult from './SearchResult';
 
@@ -29,13 +29,13 @@ type Article = {
 
 const articlesData: Article[] = Object.values(articles);
 
-function classNames(...classes: (string | boolean)[]) {
+function classNames(...classes: (string | boolean | null)[]) {
   return classes.filter(Boolean).join(' ');
 }
 
 export default function Calendar() {
   const today = startOfToday();
-  const [selectedDay, setSelectedDay] = useState(today);
+  const [selectedDay, setSelectedDay] = useState<Date | null>(null);
   const [currentMonth, setCurrentMonth] = useState(format(today, 'MMM-yyyy'));
   const firstDayCurrentMonth = parse(currentMonth, 'MMM-yyyy', new Date());
 
@@ -54,12 +54,14 @@ export default function Calendar() {
     setCurrentMonth(format(firstDayNextMonth, 'MMM-yyyy'));
   }
 
-  const selectedDayArticles = articlesData.filter((article) =>
-    isWithinInterval(startOfDay(selectedDay), {
-      start: startOfDay(parseISO(article.startDatetime)),
-      end: startOfDay(parseISO(article.endDatetime)),
-    }),
-  );
+  const displayedArticles = selectedDay
+    ? articlesData.filter((article) =>
+      isWithinInterval(startOfDay(selectedDay), {
+        start: startOfDay(parseISO(article.startDatetime)),
+        end: startOfDay(parseISO(article.endDatetime)),
+      }),
+    )
+    : articlesData;
 
   return (
     <div className='pt-16'>
@@ -110,25 +112,19 @@ export default function Calendar() {
                     type='button'
                     onClick={() => setSelectedDay(day)}
                     className={classNames(
-                      isEqual(day, selectedDay) && 'text-white',
-                      !isEqual(day, selectedDay) &&
-                        isToday(day) &&
-                        'text-red-500',
-                      !isEqual(day, selectedDay) &&
-                        !isToday(day) &&
-                        isSameMonth(day, firstDayCurrentMonth) &&
-                        'text-gray-900',
-                      !isEqual(day, selectedDay) &&
-                        !isToday(day) &&
-                        !isSameMonth(day, firstDayCurrentMonth) &&
-                        'text-gray-400',
-                      isEqual(day, selectedDay) && isToday(day) && 'bg-red-500',
-                      isEqual(day, selectedDay) &&
-                        !isToday(day) &&
-                        'bg-gray-900',
-                      !isEqual(day, selectedDay) && 'hover:bg-gray-200',
-                      (isEqual(day, selectedDay) || isToday(day)) &&
-                        'font-semibold',
+                      selectedDay && isEqual(day, selectedDay) && 'text-white',
+                      !selectedDay && isToday(day) && 'text-red-500',
+                      selectedDay && !isEqual(day, selectedDay) && isToday(day) && 'text-red-500',
+                      !selectedDay && !isToday(day) && isSameMonth(day, firstDayCurrentMonth) && 'text-gray-900',
+                      selectedDay && !isEqual(day, selectedDay) &&
+                      !isToday(day) && isSameMonth(day, firstDayCurrentMonth) && 'text-gray-900',
+                      !selectedDay && !isToday(day) && !isSameMonth(day, firstDayCurrentMonth) && 'text-gray-400',
+                      selectedDay && !isEqual(day, selectedDay) && !isToday(day) &&
+                      !isSameMonth(day, firstDayCurrentMonth) && 'text-gray-400',
+                      selectedDay && isEqual(day, selectedDay) && isToday(day) && 'bg-red-500',
+                      selectedDay && isEqual(day, selectedDay) && !isToday(day) && 'bg-gray-900',
+                      !selectedDay && 'hover:bg-gray-200',
+                      (selectedDay && isEqual(day, selectedDay) || isToday(day)) && 'font-semibold',
                       'mx-auto flex h-8 w-8 items-center justify-center rounded-full',
                     )}
                   >
@@ -151,17 +147,16 @@ export default function Calendar() {
               ))}
             </div>
           </div>
-          <section className='gap-0 mt-12 md:mt-0 md:pl-14 flex
-            flex-col justify-start min-h-[200px] min-w-[424px] pr-0'>
+          <section className='gap-0 mt-12 md:mt-0 md:pl-14 flex flex-col
+            justify-start min-h-[200px] min-w-[450px] pr-0'>
             <h2 className='font-semibold text-gray-900 text-left w-full pl-4'>
-              Events on{' '}
-              <time dateTime={format(selectedDay, 'yyyy-MM-dd')}>
-                {format(selectedDay, 'MMM dd, yyyy')}
-              </time>
+              {selectedDay
+                ? `Events on ${format(selectedDay, 'MMM dd, yyyy')}`
+                : 'All Events'}
             </h2>
-            <ol className='mt-4 space-y-1 text-sm leading-6 text-gray-500'>
-              {selectedDayArticles.length > 0 ? (
-                selectedDayArticles.map((article) => (
+            <ol className='mt-4 space-y-8 text-sm leading-6 text-gray-500 h-full overflow-auto'>
+              {displayedArticles.length > 0 ? (
+                displayedArticles.map((article) => (
                   <SearchResult
                     title={article.title}
                     link={`/events/${article.link}`}
@@ -170,7 +165,7 @@ export default function Calendar() {
                   />
                 ))
               ) : (
-                <p>No events for today.</p>
+                <p>No events found.</p>
               )}
             </ol>
           </section>
