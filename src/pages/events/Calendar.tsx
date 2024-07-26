@@ -45,6 +45,7 @@ export default function Calendar() {
   });
 
   const calendarRef = useRef<HTMLDivElement>(null);
+  const resultsRef = useRef<HTMLDivElement>(null);
 
   function previousMonth() {
     const firstDayNextMonth = add(firstDayCurrentMonth, { months: -1 });
@@ -67,7 +68,12 @@ export default function Calendar() {
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
-      if (calendarRef.current && !calendarRef.current.contains(event.target as Node)) {
+      if (
+        calendarRef.current &&
+        !calendarRef.current.contains(event.target as Node) &&
+        resultsRef.current &&
+        !resultsRef.current.contains(event.target as Node)
+      ) {
         setSelectedDay(null);
       }
     }
@@ -76,11 +82,17 @@ export default function Calendar() {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [calendarRef]);
+  }, [calendarRef, resultsRef]);
+
+  const handleResultsAreaClick = (event: React.MouseEvent) => {
+    if (event.target === event.currentTarget) {
+      setSelectedDay(null);
+    }
+  };
 
   return (
     <div className='pt-16'>
-      <div className='max-w-md px-4 mx-auto sm:px-7 md:max-w-4xl md:px-6'>
+      <div className='max-w-sm px-4 mx-auto sm:px-7 md:max-w-4xl md:px-6'>
         <div className='md:grid md:grid-cols-2 md:divide-x md:divide-gray-200'>
           <div className='md:pr-14 h-[350px]' ref={calendarRef}>
             <div className='flex items-center'>
@@ -165,14 +177,20 @@ export default function Calendar() {
               ))}
             </div>
           </div>
-          <section className='gap-0 mt-12 md:mt-0 md:pl-14 flex flex-col
-            justify-start min-h-[200px] min-w-[450px] pr-0'>
+          <section
+            className='gap-0 mt-12 md:mt-0 pl-0 md:pl-14 flex flex-col justify-start
+              min-h-[200px] w-full md:min-w-[450px] pr-0'
+            onClick={handleResultsAreaClick}
+          >
             <h2 className='font-semibold text-gray-900 text-left w-full pl-4'>
               {selectedDay
                 ? `Events on ${format(selectedDay, 'MMM dd, yyyy')}`
                 : 'All Events'}
             </h2>
-            <ol className='mt-4 space-y-8 text-sm leading-6 text-gray-500 h-full overflow-auto'>
+            <div
+              className='mt-4 space-y-8 text-sm leading-6 text-gray-500 h-full overflow-auto'
+              ref={resultsRef}
+            >
               {displayedArticles.length > 0 ? (
                 displayedArticles.map((article) => (
                   <SearchResult
@@ -185,7 +203,7 @@ export default function Calendar() {
               ) : (
                 <p>No events found.</p>
               )}
-            </ol>
+            </div>
           </section>
         </div>
       </div>
