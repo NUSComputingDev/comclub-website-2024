@@ -1,7 +1,6 @@
 import React from 'react';
 import { toast } from 'react-hot-toast';
 import { FaSearch } from 'react-icons/fa';
-import articles from './articles.json' with {type: 'json'};
 import SearchResult from './SearchResult';
 import WindowCard from '../../layout/WindowCard';
 import './index.css';

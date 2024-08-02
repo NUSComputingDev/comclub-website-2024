@@ -15,19 +15,21 @@ import {
   startOfDay,
   startOfToday,
 } from 'date-fns';
-import articles from './articles.json';
+// import articles from './articles.json' with {type: 'json'};
 import SearchResult from './SearchResult';
+import { SERVER_URL } from '../../lib/const';
 
 type Article = {
+  id: number;
+  event_name: string;
   title: string;
   body: string;
   link: string;
-  imgSrc: string;
-  startDatetime: string;
-  endDatetime: string;
+  img_src: string;
+  start_datetime: string;
+  end_datetime: string;
 };
 
-const articlesData: Article[] = Object.values(articles);
 
 function classNames(...classes: (string | boolean | null)[]) {
   return classes.filter(Boolean).join(' ');
@@ -38,6 +40,23 @@ export default function Calendar() {
   const [selectedDay, setSelectedDay] = useState<Date | null>(null);
   const [currentMonth, setCurrentMonth] = useState(format(today, 'MMM-yyyy'));
   const firstDayCurrentMonth = parse(currentMonth, 'MMM-yyyy', new Date());
+  const [articlesData, setArticlesData] = useState< Article[]>([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const res = await fetch(SERVER_URL + '/api/events');
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`);
+        }
+        const data = await res.json();
+        setArticlesData(data);
+      } catch (error) {
+        console.log("error")
+      }
+    }
+    fetchData();
+  }, []);
 
   const days = eachDayOfInterval({
     start: firstDayCurrentMonth,
@@ -60,8 +79,8 @@ export default function Calendar() {
   const displayedArticles = selectedDay
     ? articlesData.filter((article) =>
       isWithinInterval(startOfDay(selectedDay), {
-        start: startOfDay(parseISO(article.startDatetime)),
-        end: startOfDay(parseISO(article.endDatetime)),
+        start: startOfDay(parseISO(article.start_datetime)),
+        end: startOfDay(parseISO(article.end_datetime)),
       }),
     )
     : articlesData;
@@ -164,10 +183,10 @@ export default function Calendar() {
                   </button>
 
                   <div className='w-1 h-1 mx-auto mt-1'>
-                    {articlesData.some((article) =>
+                    {articlesData && articlesData.some((article) =>
                       isWithinInterval(startOfDay(day), {
-                        start: startOfDay(parseISO(article.startDatetime)),
-                        end: startOfDay(parseISO(article.endDatetime)),
+                        start: startOfDay(parseISO(article.start_datetime)),
+                        end: startOfDay(parseISO(article.end_datetime)),
                       }),
                     ) && (
                       <div className='w-1 h-1 rounded-full bg-sky-500'></div>
