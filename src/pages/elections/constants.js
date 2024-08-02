@@ -87,7 +87,7 @@ export const FAQ = [
   {
     question: 'Can I change my decision?',
     answer:
-      'You can pull out of elections at any point in time just let us know! The positions you include in your nomination form is not final; you make your decision during the Internal Elections. If you are unsure of which position but want to be a part of the management committee, join us for externals first and decide after!',
+      'You can pull out of elections at any point in time, just let us know! The positions you include in your nomination form is not final; you make your decision during the Internal Elections. If you are unsure of which position but want to be a part of the management committee, join us for externals first and decide after!',
   },
 ];
 

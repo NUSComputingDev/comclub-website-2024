@@ -15,14 +15,6 @@
     "startDatetime": "2024-08-16T09:00:00",
     "endDatetime": "2024-08-16T23:59:59"
   },
-  "computing_day": {
-    "title": "Computing Day",
-    "body": "Computing Day 2024 is a vibrant celebration organized by the NUS Students' Computing Club and the Student Life Office, scheduled for August 14, 2024, at COM3 MPH, NUS. Under the theme \"Code & Chill,\" this event aims to foster community spirit and pride among students, staff, and alumni of the School of Computing (SoC). The day is packed with activities that highlight the computing culture, including a mix of technical showcases and fun-filled engagements like a coding competition, VR gaming, student project exhibits, and traditional carnival games.\n\nThe event welcomes all NUS members, focusing on encouraging student involvement and showcasing innovations from various Student Interest Groups (SIGs). Highlights include the opening ceremony with the Dean, a coding competition prize ceremony, and a closing ceremony that recaps the day's events. Additional attractions such as food booths, photobooths, and a merchandise booth ensure that there’s something for everyone.\n\nDesigned to build a bridge between students, faculty, and alumni, Computing Day 2024 will provide a platform for showcasing computing projects, sharing experiences, and promoting an inclusive culture within SoC. With comprehensive planning and the participation of key stakeholders, the event is set to be a memorable day that celebrates the essence and excitement of computing at NUS.\n",
-    "link": "computing_day",
-    "imgSrc": "/announcements/computing_day.png",
-    "startDatetime": "2024-08-14T09:00:00",
-    "endDatetime": "2024-08-14T17:00:00"
-  },
   "rag_and_flag": {
     "title": "Rag & Flag",
     "body": "Rag and Flag is an annual event at NUS that brings together students from various faculties to participate in community service and fundraising activities. The day begins with students engaging in volunteer work across different locations, followed by a vibrant parade featuring student performances and creatively decorated floats. This event not only fosters a sense of unity and social responsibility among students but also helps raise funds for various charitable causes. Rag and Flag embodies the spirit of giving back to the community while celebrating student creativity and teamwork.",
@@ -30,5 +22,13 @@
     "imgSrc": "/announcements/rag_and_flag.jpg",
     "startDatetime": "2024-08-10T09:00:00",
     "endDatetime": "2024-08-10T18:00:00"
+  },
+  "computing_day": {
+    "title": "Computing Day",
+    "body": "Computing Day 2024 is a vibrant celebration organized by the NUS Students' Computing Club and the Student Life Office, scheduled for August 14, 2024, at COM3 MPH, NUS. Under the theme \"Code & Chill,\" this event aims to foster community spirit and pride among students, staff, and alumni of the School of Computing (SoC). The day is packed with activities that highlight the computing culture, including a mix of technical showcases and fun-filled engagements like a coding competition, VR gaming, student project exhibits, and traditional carnival games.\n\nThe event welcomes all NUS members, focusing on encouraging student involvement and showcasing innovations from various Student Interest Groups (SIGs). Highlights include the opening ceremony with the Dean, a coding competition prize ceremony, and a closing ceremony that recaps the day's events. Additional attractions such as food booths, photobooths, and a merchandise booth ensure that there’s something for everyone.\n\nDesigned to build a bridge between students, faculty, and alumni, Computing Day 2024 will provide a platform for showcasing computing projects, sharing experiences, and promoting an inclusive culture within SoC. With comprehensive planning and the participation of key stakeholders, the event is set to be a memorable day that celebrates the essence and excitement of computing at NUS.\n",
+    "link": "computing_day",
+    "imgSrc": "/announcements/computing_day.png",
+    "startDatetime": "2024-09-04T09:00:00",
+    "endDatetime": "2024-09-04T17:00:00"
   }
 }
