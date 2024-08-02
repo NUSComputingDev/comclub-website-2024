@@ -5,7 +5,7 @@ import { Toaster } from 'react-hot-toast';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
-import Elections from './pages/Elections';
+import Elections from './pages/elections';
 
 function App() {
   return (
