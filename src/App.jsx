@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
 import { useLocation, Routes, Route } from 'react-router-dom';
-import { About, Article, Events, Home, Privacy, Resources } from './pages';
+import { About, Article, Events, Home, Privacy, Resources, Elections } from './pages';
 import { Toaster } from 'react-hot-toast';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
-import Elections from './pages/elections';
 
 function App() {
   return (

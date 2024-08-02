@@ -11,7 +11,7 @@
   ;
 }
 
-.faq>h1, .elections .title {
+.faq>h1, .elections .title, .regulations>h1, .officers>h1, .roles>h1 {
   @apply
     mx-8
     md:mx-64
