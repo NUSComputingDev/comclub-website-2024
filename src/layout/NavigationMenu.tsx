@@ -11,6 +11,7 @@ function NavigationMenu() {
     'About': '/about',
     'Events': '/events',
     'Resources': '/resources',
+    'Elections': '/elections',
     'Photos': 'https://www.flickr.com/photos/137141057@N04/albums/',
   };
 
