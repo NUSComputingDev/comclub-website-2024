@@ -5,6 +5,7 @@ import { Toaster } from 'react-hot-toast';
 import NavigationBar from './layout/NavigationBar';
 import Footer from './layout/Footer';
 import './App.css';
+import Elections from './pages/Elections';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path=':articleLink' element={<Article />} />
           </Route>
           <Route path='/resources' element={<Resources />} />
+          <Route path='/elections' element={<Elections />} />
         </Routes>
       </main>
 

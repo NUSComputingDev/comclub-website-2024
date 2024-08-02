@@ -9,9 +9,11 @@
 html, body {
   font-family: 'Montserrat', sans-serif;
   overscroll-behavior: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: 'white';
   text-decoration: inherit;
@@ -51,4 +53,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

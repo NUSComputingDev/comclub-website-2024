@@ -41,7 +41,7 @@ function Home() {
             Keep an eye out for the latest Computing Club <span>events</span>!
           </p>
           <Link to='./events'>
-            <button>Events</button>
+            <button className='rounded-lg'>Events</button>
           </Link>
         </div>
       </section>
@@ -57,7 +57,7 @@ function Home() {
             <span> study planner</span>!
           </p>
           <Link to='./resources'>
-            <button>Resources</button>
+            <button className='rounded-lg'>Resources</button>
           </Link>
         </div>
         <img src='/planner_graphic.svg' className='section-graphic'></img>
