@@ -40,7 +40,7 @@ function Roles() {
                 </span>
               </summary>
               <div className='text-neutral-600 mt-3 group-open:animate-fadeIn'>
-                <ul className='pl-4'>
+                <ul className='pl-4 leading-8'>
                   {wing.roles.map((role, roleIndex) => (
                     <li className='list-disc' key={roleIndex}>
                       <b>{role.name}</b>

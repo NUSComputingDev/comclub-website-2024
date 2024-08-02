@@ -20,7 +20,7 @@ function Faq() {
         {FAQ.map((faq, index) => (
           <div key={index} className='py-5'>
             <details className='group'>
-              <summary className='flex justify-between items-center font-medium cursor-pointer list-none'>
+              <summary className='flex justify-between items-center font-medium cursor-pointer list-none text-left'>
                 <span>{faq.question}</span>
                 <span className='transition group-open:rotate-180'>
                   <svg
