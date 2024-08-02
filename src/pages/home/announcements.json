@@ -1,19 +1,5 @@
 [
   {
-    "title": "Freshman Social Camp",
-    "desc": "FSC is crafted to kickstart your university journey with enduring friendships and unforgettable experiences. Engage in a variety of physical and intellectual games, participate in team bonding exercises, and compete for exciting team and individual prizes. You will also have the opportunity to attend the beach finale event Bash together with your new friends, solidifying your friendships.",
-    "date": "19/06/24 - 22/06/24",
-    "link": "./events/freshman_social_camp",
-    "imgSrc": "/announcements/fsc.jpg"
-  },
-  {
-    "title": "Freshman Orientation Week",
-    "desc": "FOW is a 4-day physical orientation camp where seniors help freshmen adapt to different aspects of university life through preparatory talks and team-building activities. Forge lasting friendships as you navigate campus resources and academic challenges together. Look forward to strategic team games that develop you both intellectually and physically.",
-    "date": "24/07/24 - 27/07/24",
-    "link": "./events/freshman_orientation_camp",
-    "imgSrc": "/announcements/fow.jpg"
-  },
-  {
     "title": "Freshman Finale Camp",
     "desc": "FFC is a 3-day physical summer camp, perfectly tailored for international students gearing up for matriculation closer to August. The camp offers an array of theme-based activities such as flag-building and exhilarating house face-offs. Engage in friendly competition alongside your housemates, strategizing to earn glory for your elemental faction in a series of thrilling challenges. End the camp on a high note with its campfire and barbecue finale under the stars.",
     "date": "05/08/24 - 07/08/24",
@@ -33,5 +19,12 @@
     "date": "14/08/24",
     "link": "./events/computing_day",
     "imgSrc": "/announcements/computing_day.png"
+  },
+  {
+    "title": "Rag & Flag",
+    "desc": "Rag and Flag is an annual event at NUS that brings together students from various faculties to participate in community service and fundraising activities. The day begins with students engaging in volunteer work across different locations, followed by a vibrant parade featuring student performances and creatively decorated floats. This event not only fosters a sense of unity and social responsibility among students but also helps raise funds for various charitable causes. Rag and Flag embodies the spirit of giving back to the community while celebrating student creativity and teamwork.",
+    "date": "10/08/24",
+    "link": "./events/rag_and_flag",
+    "imgSrc": "/announcements/rag_and_flag.jpg"
   }
 ]

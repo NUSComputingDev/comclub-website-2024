@@ -90,6 +90,10 @@ The event welcomes all NUS members, focusing on encouraging student involvement 
 Designed to build a bridge between students, faculty, and alumni, Computing Day 2024 will provide a platform for showcasing computing projects, sharing experiences, and promoting an inclusive culture within SoC. With comprehensive planning and the participation of key stakeholders, the event is set to be a memorable day that celebrates the essence and excitement of computing at NUS.
 '''
 
+rag_and_flag_body = """
+Rag and Flag is an annual event at NUS that brings together students from various faculties to participate in community service and fundraising activities. The day begins with students engaging in volunteer work across different locations, followed by a vibrant parade featuring student performances and creatively decorated floats. This event not only fosters a sense of unity and social responsibility among students but also helps raise funds for various charitable causes. Rag and Flag embodies the spirit of giving back to the community while celebrating student creativity and teamwork.
+"""
+
 # temporary stopgap for article content
 # convert multiline articles into json
 if __name__ == '__main__':
@@ -135,6 +139,12 @@ if __name__ == '__main__':
             'body': computing_day_body,
             'link': 'computing_day',
             'imgSrc': '/announcements/computing_day.png'
+        },
+        'rag_and_flag': {
+            'title': 'Rag and Flag',
+            'body': rag_and_flag_body,
+            'link': 'rag_and_flag',
+            'imgSrc': '/announcements/rag_and_flag.jpg'
         }
     }
     json.dump(articles, open('articles.json', 'w+'))

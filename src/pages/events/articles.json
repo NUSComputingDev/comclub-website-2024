@@ -22,5 +22,13 @@
     "imgSrc": "/announcements/computing_day.png",
     "startDatetime": "2024-08-14T09:00:00",
     "endDatetime": "2024-08-14T17:00:00"
+  },
+  "rag_and_flag": {
+    "title": "Rag & Flag",
+    "body": "Rag and Flag is an annual event at NUS that brings together students from various faculties to participate in community service and fundraising activities. The day begins with students engaging in volunteer work across different locations, followed by a vibrant parade featuring student performances and creatively decorated floats. This event not only fosters a sense of unity and social responsibility among students but also helps raise funds for various charitable causes. Rag and Flag embodies the spirit of giving back to the community while celebrating student creativity and teamwork.",
+    "link": "rag_and_flag",
+    "imgSrc": "/announcements/rag_and_flag.jpg",
+    "startDatetime": "2024-08-10T09:00:00",
+    "endDatetime": "2024-08-10T18:00:00"
   }
 }
