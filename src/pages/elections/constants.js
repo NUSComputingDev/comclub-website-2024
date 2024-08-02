@@ -68,7 +68,7 @@ export const FAQ = [
   },
   {
     question: 'What\'re all the roles in Computing Club?',
-    answer: 'You can find all the roles and their responsibilities here.',
+    answer: 'You can find all the roles and their responsibilities below.',
   },
   {
     question: 'Can I try for multiple roles?',
