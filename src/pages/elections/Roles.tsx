@@ -12,7 +12,7 @@ function Roles() {
     >
       <div className='flex flex-col items-center roles'>
         <h1>Roles</h1>
-        <p className='text-neutral-500 text-xl mt-3'>
+        <p className='text-neutral-500 text-xl mt-3 text-center'>
           Learn more about the roles available in the NUS Students' Computing
           Club.
         </p>

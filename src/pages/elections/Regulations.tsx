@@ -7,7 +7,7 @@ function Regulations() {
     <div className='w-full mx-auto px-5 py-4 bg-white h-full' id='regulations-section'>
       <div className='flex flex-col items-center regulations'>
         <h1>Regulations</h1>
-        <p className='text-neutral-500 text-xl mt-3'>
+        <p className='text-neutral-500 text-xl mt-3 text-center'>
           Last updated as of 2 August, 2024.
         </p>
       </div>

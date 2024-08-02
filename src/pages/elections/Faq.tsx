@@ -13,7 +13,7 @@ function Faq() {
       <div className='flex flex-col items-center faq'>
         <h1>FAQ</h1>
         <p className='text-neutral-500 text-xl mt-3'>
-          Frequently asked questions
+          Frequently asked questions.
         </p>
       </div>
       <div className='grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8'>
