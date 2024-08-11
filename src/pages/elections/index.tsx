@@ -16,10 +16,10 @@ function Elections() {
         today!
       </p>
       <Timeline />
-      <Faq />
       <Roles />
       <Regulations />
       <Officer />
+      <Faq />
       <Footer />
     </section>
   );

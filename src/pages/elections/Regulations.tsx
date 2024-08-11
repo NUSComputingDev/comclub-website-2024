@@ -4,7 +4,7 @@ import { regulationsData } from './constants';
 
 function Regulations() {
   return (
-    <div className='w-full mx-auto px-5 py-4 bg-white h-full' id='regulations-section'>
+    <div className='w-full mx-auto px-5 py-8 bg-white h-full' id='regulations-section'>
       <div className='flex flex-col items-center regulations'>
         <h1>Regulations</h1>
         <p className='text-neutral-500 text-xl mt-3 text-center'>

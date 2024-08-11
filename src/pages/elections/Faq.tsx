@@ -7,7 +7,7 @@ import { FAQ } from './constants';
 function Faq() {
   return (
     <div
-      className='w-full mx-auto px-5 py-4 bg-white h-full'
+      className='w-full mx-auto px-5 py-8 bg-white h-full'
       id='faq-section'
     >
       <div className='flex flex-col items-center faq'>
