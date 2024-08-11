@@ -7,9 +7,9 @@ export const TimelineEvents = [
   },
   {
     title: 'Nomination Period Ends',
-    date: '18 Aug 2024, Sunday',
+    date: '18 Aug 2024, Sunday 12PM',
     description:
-      'The final day for submitting nominations for the election of the new committee members.',
+      'The final day for submitting nominations for the election of the new committee members. No further submissions after 12pm.',
   },
   {
     title: 'Campaigning Period',

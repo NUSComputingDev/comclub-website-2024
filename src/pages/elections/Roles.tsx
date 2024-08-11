@@ -20,7 +20,7 @@ function Roles() {
         <div className='mt-8 mb-4'>
           <WindowCard content={
             <div className='flex justify-center items-center'>
-              <img src='/elections/roles.jpg' className='object-cover min-w-40 max-h-96'></img>
+              <img src='/elections/roles.jpg' className='object-cover min-w-40 max-h-96 p-2'></img>
             </div>
           }></WindowCard>
         </div>
