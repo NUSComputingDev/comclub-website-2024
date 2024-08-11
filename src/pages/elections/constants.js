@@ -1,58 +1,75 @@
 export const TimelineEvents = [
   {
     title: 'Nomination Period Starts',
-    date: '09 Aug 2024, Friday',
+    date: '12 Aug 2024, Monday',
     description:
       'Nomination period starts for the election of the new committee members.',
   },
   {
     title: 'Nomination Period Ends',
-    date: '17 Aug 2024, Friday',
+    date: '18 Aug 2024, Sunday',
     description:
       'The final day for submitting nominations for the election of the new committee members.',
   },
   {
     title: 'Campaigning Period',
-    date: '19 Aug 2024, Monday - 26 Aug 2024, Monday',
+    date: '20 Aug 2024, Tuesday - 26 Aug 2024, Monday',
     description: 'Candidates campaign to gather support from the voters.',
   },
   {
-    title: 'Cooling Off Day',
+    title: 'Cooling Off Day (Computing Club MC External Elections)',
     date: '27 Aug 2024, Tuesday',
     description:
       'A day for voters to reflect on their choices before voting, with no campaigning allowed.',
   },
   {
-    title: 'External Elections',
+    title: 'MC External Elections',
     date: '28 Aug 2024, Wednesday - 30 Aug 2024, Friday',
     description:
-      'External elections are held to elect representatives from different groups.',
+      'MC External Elections are held to elect representatives for the different wings.',
   },
   {
-    title: 'Results Release of External Elections',
-    date: 'BY 4 Sep 2024, Tuesday',
-    description: 'The results of the external elections are announced.',
+    title: 'MC External Elections Results & Cooling Off Day (NUSSU Reps External Elections)',
+    date: '1 Sep 2024, Sunday',
+    description:
+      'The results of the MC External Elections are announced, along with a cooling-off day for NUSSU Reps External Elections.',
   },
-  //   {
-  //     'title': 'Internal Elections',
-  //     'date': '5 Sep 2024, Thursday to 7 Sep 2024, Saturday',
-  //     'description': 'Internal elections are held to elect specific roles within the organization.',
-  //   },
-  //   {
-  //     'title': 'Results Release of Internal Elections',
-  //     'date': 'BY 13 Sep 2024, Friday',
-  //     'description': 'The results of the internal elections are announced.',
-  //   },
-  //   {
-  //     'title': 'Club Annual General Meeting',
-  //     'date': '14 Sep 2024, Saturday (tentative)',
-  //     'description': 'The annual general meeting of the club to discuss the past year and future plans.',
-  //   },
-  //   {
-  //     'title': '46th NUSSU Council First Council Meeting',
-  //     'date': '21-22 September 2021',
-  //     'description': 'The first council meeting of the 46th NUSSU Council to outline the agenda for the new term.',
-  //   },
+  {
+    title: 'NUSSU Representatives Elections',
+    date: '2 Sep 2024, Monday',
+    description:
+      'Elections are held to elect representatives for the NUSSU Council.',
+  },
+  {
+    title: 'NUSSU Reps External Election Results Release',
+    date: '4 Sep 2024, Wednesday',
+    description:
+      'The results of the external elections for NUSSU Reps are announced.',
+  },
+  {
+    title: 'Internal Elections',
+    date: '5 Sep 2024, Thursday - 7 Sep 2024, Saturday',
+    description:
+      'Internal elections are held to elect specific roles within the organization.',
+  },
+  {
+    title: 'Results Release of Internal Elections',
+    date: '9 Sep 2024, Monday',
+    description:
+      'The results of the internal elections are announced.',
+  },
+  // {
+  //   title: 'Club Annual General Meeting',
+  //   date: '14 Sep 2024, Saturday (tentative)',
+  //   description:
+  //     'The annual general meeting of the club to discuss the past year and future plans.',
+  // },
+  // {
+  //   title: '46th NUSSU Council First Council Meeting',
+  //   date: '21-22 Sep 2024',
+  //   description:
+  //     'The first council meeting of the 46th NUSSU Council to outline the agenda for the new term.',
+  // },
 ];
 
 export const FAQ = [
@@ -108,12 +125,14 @@ export const regulationsData = [
     color: '#395B9B',
   },
   {
-    title: 'AY 2024/2025 NUSSU Students\' Computing Club Election Standing Orders',
+    title:
+      'AY 2024/2025 NUSSU Students\' Computing Club Election Standing Orders',
     link: '/elections/Computing Club 27th MC Election Standing Order AY2425.pdf',
     color: '#778beb',
   },
   {
-    title: 'Constitution of the National University of Singapore Students\' Union',
+    title:
+      'Constitution of the National University of Singapore Students\' Union',
     link: '/elections/NUSSU_Constitution_approved_by_BOT_on_26072018.pdf',
     color: '#93c6c3',
   },
@@ -158,9 +177,7 @@ export const wingsData = [
       },
       {
         name: 'Director of Publicity',
-        subRoles: [
-          'Deputy Director of Publicity',
-        ],
+        subRoles: ['Deputy Director of Publicity'],
       },
     ],
     link: 'elections/externalrelations.html',
@@ -183,9 +200,10 @@ export const wingsData = [
         subRoles: ['Deputy Director of Academic Liaison'],
       },
       { name: 'Director of Community Engagement' },
-      { name: 'Director of Rag & Flag', subRoles: [
-        'Deputy Director of Rag & Flag',
-      ] },
+      {
+        name: 'Director of Rag & Flag',
+        subRoles: ['Deputy Director of Rag & Flag'],
+      },
     ],
     link: 'elections/studentdevelopment.html',
   },

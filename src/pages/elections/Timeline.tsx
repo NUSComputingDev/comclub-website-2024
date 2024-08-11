@@ -3,7 +3,7 @@ import { TimelineEvents } from './constants';
 
 function Timeline() {
   return (
-    <div className='relative h-full mt-4'>
+    <div className='relative h-full mt-4 mb-8'>
       <div className='max-w-5xl py-4 mx-auto'>
         <div className='grid gap-4 sm:grid-cols-12'>
           <div className='col-span-12 sm:col-span-3'>
