@@ -1,10 +1,11 @@
 import React from 'react';
 import Faq from './Faq';
 import Timeline from './Timeline';
-import Regulations from './Regulations';
+import Documents from './Regulations';
 import Footer from './Footer';
 import Officer from './Officer';
 import Roles from './Roles';
+import ElectionProcess from './Process';
 
 function Elections() {
   return (
@@ -17,7 +18,8 @@ function Elections() {
       </p>
       <Timeline />
       <Roles />
-      <Regulations />
+      <ElectionProcess />
+      <Documents />
       <Officer />
       <Faq />
       <Footer />

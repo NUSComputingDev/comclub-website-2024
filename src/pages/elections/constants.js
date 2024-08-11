@@ -108,12 +108,49 @@ export const FAQ = [
   },
 ];
 
+export const nominationsFormsData = [
+  {
+    title: '27th Management Committee Application FormA',
+    link: '/elections/27th Management Committee Nominee Application FormA.docx',
+    color: '#778beb',
+  },
+  {
+    title: '27th Management Committee Application FormB',
+    link: '/elections/27th Management Committee Nominee Application FormB.docx',
+    color: '#f19066',
+  },
+  {
+    title: '46th Exco Representative Nomination Form',
+    link: '/elections/46th EXCO REPRESENTATIVE NOMINATION FORM.docx',
+    color: '#395B9B',
+  },
+];
+
+export const informationalData = [
+  {
+    title:
+      'AY 2024/2025 NUSSU Students\' Computing Club Election Standing Orders',
+    link: '/elections/AY2024_25_NUS_Students\'_Computing_Club_Election_Standing_Orders',
+    color: '#78e08f',
+  },
+  {
+    title: 'Computing Club 27th MC Elections Information Pamphlet',
+    link: '/elections/27th Computing Club Elections Info Pamphlet.pdf',
+    color: '#93c6c3',
+  },
+];
+
 export const regulationsData = [
   // {
   //   title: 'Union Elections Standing Orders',
   //   link: 'assets/elections/regulations/Union_Election_Standing_Orders.pdf',
   //   color: '#78e08f',
   // },
+  {
+    title: 'Union Election Standing Orders',
+    link: '/elections/Union Election Standing Orders AY24-25.pdf',
+    color: '#778beb',
+  },
   {
     title: 'NUSSU Executive Committee Election Regulations',
     link: '/elections/NUSSU_Executive_Committee_Election_Regulations_Rev_Ed_2021_Mar.pdf',
@@ -122,20 +159,14 @@ export const regulationsData = [
   {
     title: 'Constituent Club Management Committee Election Regulations',
     link: '/elections/Constituent_Club_Management_Committee_Election_Regulations_Rev_Ed.pdf',
-    color: '#395B9B',
+    color: '#78e08f',
   },
-  {
-    title:
-      'AY 2024/2025 NUSSU Students\' Computing Club Election Standing Orders',
-    link: '/elections/Computing Club 27th MC Election Standing Order AY2425.pdf',
-    color: '#778beb',
-  },
-  {
-    title:
-      'Constitution of the National University of Singapore Students\' Union',
-    link: '/elections/NUSSU_Constitution_approved_by_BOT_on_26072018.pdf',
-    color: '#93c6c3',
-  },
+  // {
+  //   title:
+  //     'Constitution of the National University of Singapore Students\' Union',
+  //   link: '/elections/NUSSU_Constitution_approved_by_BOT_on_26072018.pdf',
+  //   color: '#93c6c3',
+  // },
 ];
 
 export const officers = [
