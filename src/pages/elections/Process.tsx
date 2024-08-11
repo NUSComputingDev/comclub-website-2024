@@ -115,7 +115,7 @@ function ElectionsProcess() {
               </ol>
             </li>
             <li>You may include any additional information that supports your campaign.</li>
-            <li>More information regarding the physial speech will be released via a confirmation email.</li>
+            <li>More information regarding the physical speech will be released via a confirmation email.</li>
           </ol>
         </div>
       </div>
