@@ -3,6 +3,8 @@
 import React from 'react';
 import './index.css';
 import { wingsData } from './constants';
+import WindowCard from '../../layout/WindowCard';
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 function Roles() {
   return (
@@ -16,6 +18,13 @@ function Roles() {
           Learn more about the roles available in the NUS Students' Computing
           Club.
         </p>
+        <div className='mt-8 mb-4'>
+          <WindowCard content={
+            <div className='flex justify-center items-center'>
+              <img src='/elections/roles.jpg' className='object-cover min-w-40 max-h-[30rem] p-2'></img>
+            </div>
+          }></WindowCard>
+        </div>
       </div>
       <div className='grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8'>
         {wingsData.map((wing, index) => (
@@ -67,6 +76,10 @@ function Roles() {
             </details>
           </div>
         ))}
+      </div>
+      <div className='flex flex-row justify-center items-center mt-4 text-[#e58e26]'>
+        <a href='/elections/27th Computing Club Elections Info Pamphlet.pdf' target='_blank' className=' font-semibold text-2xl underline'>Find out more</a>
+        <FaArrowUpRightFromSquare className='ml-2'/>
       </div>
     </div>
   );
