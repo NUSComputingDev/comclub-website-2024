@@ -130,7 +130,7 @@ export const informationalData = [
   {
     title:
       'AY 2024/2025 NUSSU Students\' Computing Club Election Standing Orders',
-    link: '/elections/AY2024_25_NUS_Students\'_Computing_Club_Election_Standing_Orders',
+    link: '/elections/AY2024_25_NUS_Students\'_Computing_Club_Election_Standing_Orders.pdf',
     color: '#78e08f',
   },
   {
