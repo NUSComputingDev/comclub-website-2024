@@ -171,7 +171,7 @@ export function Candidates() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className='text-neutral-600 text-xs md:text-sm h-fit sm:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto'
+                    className='text-neutral-600 text-sm h-fit sm:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto'
                   >
                     {typeof active.content === 'function'
                       ? active.content()
