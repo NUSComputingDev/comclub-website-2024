@@ -34,37 +34,39 @@ export function Candidates() {
   const data = cards.sort((a, b) => ('' + a.title).localeCompare(b.title)).map((card, index) => {
     const content = (
       <>
-        <div className='w-48 p-4 flex flex-col items-start gap-1'>
+        <div className='w-48 p-4 flex flex-col items-stretch gap-1 flex-1'>
           <motion.div
             className='self-center'
-            layoutId={`image-${card.title}-${id}-${card.id}`}
+            layoutId={`image-${card.title}-${index}-${card.id}`}
           >
             <img
               src={card.src}
               alt={card.title}
-              className='rounded-md w-32 h-32 object-cover object-center self-center'
+              className='rounded-md w-32 h-32 object-cover object-center'
             />
           </motion.div>
-          <div className='h-20 m-2'>
-            <motion.h3
-              layoutId={`title-${card.title}-${id}-${card.id}`}
-              className='font-medium text-neutral-800 text-center md:text-left'
+          <div className='m-2 flex flex-col justify-between h-48'>
+            <div>
+              <motion.h3
+                layoutId={`title-${card.title}-${index}-${card.id}`}
+                className='font-medium text-neutral-800 text-center md:text-left'
+              >
+                {card.title}
+              </motion.h3>
+              <motion.p
+                layoutId={`description-${card.description}-${index}-${card.id}`}
+                className='text-neutral-600 text-center md:text-left'
+              >
+                {card.description}
+              </motion.p>
+            </div>
+            <motion.button
+              layoutId={`button-${card.title}-${index}-${card.id}`}
+              className='mt-4 px-4 py-2 text-sm rounded-full font-bold bg-gray-100 hover:bg-yellow-500 hover:text-white text-black'
             >
-              {card.title}
-            </motion.h3>
-            <motion.p
-              layoutId={`description-${card.description}-${id}-${card.id}`}
-              className='text-neutral-600 text-center md:text-left'
-            >
-              {card.description}
-            </motion.p>
+              {card.ctaText}
+            </motion.button>
           </div>
-          <motion.button
-            layoutId={`button-${card.title}-${id}-${card.id}`}
-            className='px-4 py-2 text-sm rounded-full font-bold bg-gray-100 hover:bg-yellow-500 hover:text-white text-black mt-8'
-          >
-            {card.ctaText}
-          </motion.button>
         </div>
       </>
     );
@@ -134,7 +136,7 @@ export function Candidates() {
                 <img
                   src={active.src}
                   alt={active.title}
-                  className=' w-[500px] sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-center self-center h-96 sm:h-fit'
+                  className=' w-[500px] sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-center self-center h-96 sm:h-fit rounded-lg'
                 />
               </motion.div>
 
