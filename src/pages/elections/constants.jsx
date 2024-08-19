@@ -572,7 +572,7 @@ export const cards = [
     title: 'Shananth Sivakumar',
     src: '/elections/candidates/shananth.jpg',
     ctaText: 'View More',
-    year: 'Year 2',
+    year: 'Year 1',
     major: 'Computer Science',
     content: () => {
       return (
