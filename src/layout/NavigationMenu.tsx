@@ -12,6 +12,7 @@ function NavigationMenu() {
     'Events': '/events',
     'Resources': '/resources',
     'Elections': '/elections',
+    'Candidates': '/elections/candidates',
     'Photos': 'https://www.flickr.com/photos/137141057@N04/albums/',
   };
 
