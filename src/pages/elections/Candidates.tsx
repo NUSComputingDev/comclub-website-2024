@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useOutsideClick } from '../../../hooks/use-outside-click';
 import WindowCard from '../../layout/WindowCard';
 import { cards } from './constants';
+import Results from './Results';
 
 export function Candidates() {
   const [active, setActive] = useState<(typeof cards)[number] | boolean | null>(
@@ -86,6 +87,7 @@ export function Candidates() {
 
   return (
     <section className='elections h-full gap-4'>
+      <Results />
       <h1 className='title'>Candidates</h1>
       <p className='text-neutral-500 text-xl text-center'>
         See the candidates running for the NUS Students&apos; Computing Club
