@@ -77,7 +77,7 @@ export default function Results() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {electionsResults.sort((a, b) => b.final - a.final).map((result, index) => (
+                {electionsResults.sort((a, b) => ('' + a.name).localeCompare(b.name)).map((result, index) => (
                   <TableRow key={index}>
                     <TableCell className='font-semibold'>
                       {index + 1}
@@ -86,7 +86,7 @@ export default function Results() {
                     <TableCell>{result.for}</TableCell>
                     <TableCell>{result.abstain}</TableCell>
                     <TableCell>{result.against}</TableCell>
-                    <TableCell className={`${result.final >= 50 ? 'text-green-500' : 'text-red-500'} font-semibold`}>{result.final}</TableCell>
+                    <TableCell className={`${result.final >= 50 ? 'text-green-500' : 'text-red-500'} font-semibold`}>{result.final}%</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
@@ -95,108 +95,6 @@ export default function Results() {
         </Card>
       </main>
     </div>
-  );
-}
-
-function BellIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-    >
-      <path d='M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9' />
-      <path d='M10.3 21a1.94 1.94 0 0 0 3.4 0' />
-    </svg>
-  );
-}
-
-function GaugeIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-    >
-      <path d='m12 14 4-4' />
-      <path d='M3.34 19a10 10 0 1 1 17.32 0' />
-    </svg>
-  );
-}
-
-function LogOutIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-    >
-      <path d='M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4' />
-      <polyline points='16 17 21 12 16 7' />
-      <line x1='21' x2='9' y1='12' y2='12' />
-    </svg>
-  );
-}
-
-function Package2Icon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-    >
-      <path d='M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z' />
-      <path d='m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9' />
-      <path d='M12 3v6' />
-    </svg>
-  );
-}
-
-function UserIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns='http://www.w3.org/2000/svg'
-      width='24'
-      height='24'
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='2'
-      strokeLinecap='round'
-      strokeLinejoin='round'
-    >
-      <path d='M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2' />
-      <circle cx='12' cy='7' r='4' />
-    </svg>
   );
 }
 
