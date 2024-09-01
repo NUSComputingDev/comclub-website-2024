@@ -68,7 +68,7 @@ export default function Results() {
             <Table className='w-full table table-auto'>
               <TableHeader>
                 <TableRow>
-                  <TableHead>Rank</TableHead>
+                  <TableHead>No.</TableHead>
                   <TableHead>Candidate</TableHead>
                   <TableHead>For</TableHead>
                   <TableHead>Abstain</TableHead>
