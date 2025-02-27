@@ -15,16 +15,6 @@ function Resources() {
 
       <section className='md:items-start'>
         <div className='resource-window-container'>
-          <WindowCard content={
-            <div className='resource-window-content'>
-              <img src='/planner_icon.svg'></img>
-              <div className='resource-window-text'>
-                <h4>Study Planner</h4>
-                <p>Chart out your academic journey.</p>
-                <button disabled>Coming Soon!</button>
-              </div>
-            </div>
-          }></WindowCard>
 
           <WindowCard content={
             <div className='resource-window-content'>
