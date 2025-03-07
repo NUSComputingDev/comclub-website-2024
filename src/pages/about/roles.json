@@ -1,131 +1,131 @@
 {
   "Presidency": [
     {
-      "name": "Javian Ng",
+      "name": "Jolyn Leow",
       "role": "President"
     },
     {
-      "name": "Sean Kevin Dias",
+      "name": "Ng Le Xuan",
       "role": "General Secretary"
     },
     {
-      "name": "Jamie Ho",
+      "name": "Ophelia Teo",
       "role": "Deputy General Secretary"
     },
     {
-      "name": "Rayson Yeap",
+      "name": "Kong Shi Ting",
       "role": "Tech Lead"
     },
     {
-      "name": "Lee Yong Ning",
+      "name": "Jeriel Chan",
       "role": "Deputy Tech Lead"
     },
     {
-      "name": "Mervyn Seah",
+      "name": "Chen Dong Jun",
       "role": "Finance Secretary"
     },
     {
-      "name": "Vivien He",
+      "name": "Jamie Ho",
       "role": "Deputy Finance Secretary"
     }
   ],
   "External Relations": [
     {
-      "name": "Koo Jay-Lynn",
+      "name": "Wilson Soon",
       "role": "Vice President"
     },
     {
-      "name": "Wang Yu Qing",
+      "name": "Bawa Aryan Munish",
       "role": "Director, Publicity"
     },
     {
-      "name": "Althea Tan",
-      "role": "Deputy Director, Publicity (Content & Graphics)"
+      "name": "Lim Jun Fun",
+      "role": "Deputy Director, Publicity"
     },
     {
-      "name": "Davian Kho",
-      "role": "Deputy Director, Publicity (Photos & Video)"
-    },
-    {
-      "name": "Ophelia Teo",
+      "name": "Daryl Leong",
       "role": "Director, Marketing"
     },
     {
-      "name": "Khoo Pyn Zhern",
+      "name": "Chee Hann Yu",
       "role": "Deputy Director, Marketing (Merchandise)"
     },
     {
-      "name": "Natasha Koh",
+      "name": "Kayla Ong",
       "role": "Deputy Director, Marketing (Sponsorship)"
     }
   ],
   "Internal Relations": [
     {
-      "name": "Reina Tng",
+      "name": "Jha Satwik",
       "role": "Vice President"
     },
     {
-      "name": "Joshua Lek",
+      "name": "Ravichandran Gokul",
       "role": "Director, Welfare"
     },
     {
-      "name": "Tricia Ang",
+      "name": "Shananth Sivakumar",
       "role": "Deputy Director, Welfare"
     },
     {
-      "name": "Natasha Sanghar",
+      "name": "Josiah Praeman",
       "role": "Director, Sports"
     },
     {
-      "name": "Chloe Ong",
+      "name": "Hasan Ahmed Nasif",
       "role": "Deputy Director, Sports"
     }
   ],
   "Student Development": [
     {
-      "name": "Ng Le Xuan",
+      "name": "Basil Boh",
       "role": "Vice President"
     },
     {
-      "name": "Emily Tan",
+      "name": "Sun Jiaen",
       "role": "Director, Academic Liaison"
     },
     {
-      "name": "Teo Hong Rui",
+      "name": "Yang Zehao",
       "role": "Deputy Director, Academic Liaison"
     },
     {
-      "name": "Martin Ng",
+      "name": "Khoo Xuren",
       "role": "Director, Community Engagement"
     },
     {
-      "name": "Kong Shi Ting",
+      "name": "Choong Jing Xiang",
       "role": "Director, Rag & Flag"
+    },
+    {
+      "name": "Tay Shu Sui",
+      "role": "Deputy Director, Rag & Flag"
     }
   ],
   "Student Life": [
     {
-      "name": "Nathan Loo",
+      "name": "Chin Cherng Yuen",
       "role": "Vice President"
     },
     {
-      "name": "Raeeda",
+      "name": "Ryan Neo",
       "role": "Director, Freshman Orientation Projects"
     },
     {
-      "name": "Timothy Soon",
+      "name": "Zowie Ong",
       "role": "Deputy Director, Freshman Orientation Projects"
     },
     {
-      "name": "Wanjari Kimaya",
+      "name": "Gowri Sumesh Menon",
       "role": "Deputy Director, Freshman Orientation Projects"
     },
     {
-      "name": "Toh Yi Hui",
+      "name": "Mu Junrong",
       "role": "Director, Student Engagement"
     },
     {
-      "name": "Ivan Yang",
+      "name": "Shang Jiatong",
       "role": "Deputy Director, Student Engagement"
     }
   ]
