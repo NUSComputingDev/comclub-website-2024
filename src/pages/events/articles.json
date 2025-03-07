@@ -15,6 +15,14 @@
     "startDatetime": "2025-02-03T09:00:00",
     "endDatetime": "2025-02-07T17:00:00"
   },
+  "meliorium": {
+    "title": "Meliorium",
+    "body": "Meliorium is an initiative which extends support to newcomers and international students. Through engaging activities such as an Amazing Race around campus and various station games, Meliorium provides opportunities for participants to broaden their social connections, learn about different cultures, and familiarise themselves with the unique culture and physical layout of SoC.",
+    "link": "meliorium",
+    "imgSrc": "/announcements/meliorium.png",
+    "startDatetime": "2025-01-15T09:00:00",
+    "endDatetime": "2025-01-18T17:00:00"
+  },
   "comaraderie": {
     "title": "COMaraderie",
     "body": "Comaraderie is an annual event held by SoC to help students kickstart the new semester with new friendships and experiences after the long winter break. Participants form groups of 5 and complete various challenges to win attractive prizes, making new friends along the way.",
