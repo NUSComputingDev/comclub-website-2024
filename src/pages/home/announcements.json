@@ -7,10 +7,10 @@
     "imgSrc": "/announcements/flag-vday.jpg"
   },
   {
-    "title": "Career Launchpad",
-    "desc": "Career Launchpad is SoC's flagship career event which connect students to various companies through sharings and connection sessions. Students will have the opportunity to interact with various industry leaders from NCS, Singtel, ISD, Tiktok.",
-    "date": "2/02/25",
-    "link": "./events/rag_and_flag",
-    "imgSrc": "/announcements/career-launchpad.jpg"
+    "title": "FSC 2025: The Olympian Network",
+    "desc": "🎭⚡️WELCOME TO FRESHMEN SOCIAL CAMP 2025: THE OLYMPIAN NETWORK⚡️🎭🗓️Dates: 18 – 21 June 2025📍Location: NUS School of Computing & Palawan Beach\n👤Open to: All incoming NUS SoC Freshmen\n\n🧠💻Mount Olympus has gone digital… and you’ve been summoned.\nIn an alternate 2025, the gods of Olympus no longer rule from thrones but command an immense Olympian Network—a divine computing system balancing life, logic, and destiny. But when a Titan-forged virus strikes the Core of Fate, chaos erupts. The gods turn to the only mortals with the skills to fight back... NUS Computing Freshmen.\n\nWill you rise as a champion and restore balance to the realm?\n\n💬Make friends. Forge bonds. And leave your legacy as a Protector of Olympus.\n\n🌟 Whether you’re a logic wizard, a code crafter, a design visionary, or just here to vibe — FSC 2025 is your chance to start your NUS journey with epic memories and legendary friendships.\n\n✨ Sign up now — Olympus awaits you.",
+    "date": "18/06/25 - 21/06/25",
+    "link": "./events/fsc",
+    "imgSrc": "/announcements/fsc.JPG"
   }
 ]
