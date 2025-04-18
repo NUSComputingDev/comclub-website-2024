@@ -46,5 +46,32 @@
     "imgSrc": "/announcements/fsc.JPG",
     "startDatetime": "2025-06-18T09:00:00",
     "endDatetime": "2025-06-21T17:00:00"
+  },
+  "fow": {
+    "title": "Freshmen Orientation Week 2025: Super SoC Bros!",
+    "body": "🍄🎮 FRESHMEN ORIENTATION WEEK 2025: SUPER SOC BROS! 🎮🍄\n🗓️ 22 – 25 July 2025\n📍 NUS School of Computing & Palawan Beach\n👤 Open to all incoming NUS SoC Freshmen\n\n🎲✨ It's time to press START on your greatest adventure yet!\n\nBowser’s been up to no good — and the Mushroom Kingdom needs fresh new heroes to jump in, team up, and bring the sparkle back! 🌟 From secret missions to wild races and mystery challenges, FOW 2025 is packed with surprises at every turn (no warp pipes needed).\n\n👯‍♂️ Whether you're a speedy racer, a puzzle master, or just really good at dodging flying shells, there’s a place for you in this epic quest.\n\n🍕 Meet your crew, chase those golden moments, and stack up memories like they're stacks of gold coins!\n\nExpect laughter, a little chaos, and maybe even a few Power-Ups along the way. 🍄✨\n\n🚀 Get ready, freshies — adventure is loading. Sign up now and let's-a gooooo!",
+    "link": "fow",
+    "imgSrc": "/announcements/fow.JPG",
+    "startDatetime": "2025-07-22T09:00:00",
+    "endDatetime": "2025-07-25T17:00:00"
+  },
+  "ffc": {
+    "title": "Freshman Finale Camp 2025: Reclaim Your Virtue",
+    "body": "🌀🔥 WELCOME TO FRESHMAN FINALE CAMP 2025: RECLAIM YOUR VIRTUE 🔥🌀\n🗓 4 – 6 August 2025\n📍 NUS School of Computing\n👥 Open to: All SoC Freshmen\n\nLong ago, the four virtues—Courage, Wisdom, Harmony, and Ambition—shaped humanity’s path. Now, their elemental legacy lies hidden beneath forgotten memories… and it's up to you to rediscover your core.\n\n🎇 FFC 2025 is the final stop in your orientation journey—and the most legendary.\n✨ Sorted by the mystical Sorting Abstraction™, you’ll be called to one of four houses—Valoria, Luminara, Equinox, or Aspira—and thrust into a three-day quest across mind-bending puzzles, high-stakes challenges, and unmissable games.\n\nFrom cryptic escape rooms to the electrifying Grid Game Madness, and a showstopping Talent Showcase, your house will rise or fall by how boldly you collaborate, compete, and connect.\n\n🌙 And on the final night?\nThe arena comes alive with the ultimate Finale Rave, awards, and the crown jewel—your very own Taskmaster video showcase.\n\n🎭 Whether you're a riddle-solver, chaos agent, team player, or just here to have one last hurrah—FFC 2025 is your chance to:\n\n🧠 Find your people.\n🔥 Forge your identity.\n🌟 Finish your freshman journey with a BANG.\n\n🎟️ The Sorting Abstraction is ready. Are you?\n\n➡️ Sign up now. The elements await.",
+    "link": "ffc",
+    "imgSrc": "/announcements/ffc.JPEG",
+    "startDatetime": "2025-08-04T09:00:00",
+    "endDatetime": "2025-08-06T17:00:00"
+  },
+  "bash": {
+    "title": "COMBASH 2025",
+    "body": "COMBASH is the signature night event that officially welcomes you into the School of Computing family! \n \nGet ready for a night of dazzling performances, exciting games, and an electric atmosphere! COMBASH is here to not only celebrate the start of your university life, but also the friendships you’ve made throughout orientations and RAG!",
+    "link": "bash",
+    "imgSrc": "/announcements/bash.JPG",
+    "startDatetime": "2025-08-22T09:00:00",
+    "endDatetime": "2025-08-22T17:00:00"
   }
+  
+
+  
 }
