@@ -78,7 +78,7 @@ function Roles() {
         ))}
       </div>
       <div className='flex flex-row justify-center items-center mt-4 text-[#e58e26]'>
-        <a href='/elections/27th Computing Club Elections Info Pamphlet.pdf' target='_blank' className=' font-semibold text-2xl underline'>Find out more</a>
+        <a href='/elections/28th Computing Club Elections Info Pamphlet.pdf' target='_blank' className=' font-semibold text-2xl underline'>Find out more</a>
         <FaArrowUpRightFromSquare className='ml-2'/>
       </div>
     </div>

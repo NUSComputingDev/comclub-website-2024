@@ -50,7 +50,7 @@ export const TimelineEvents = [
     title: 'Results Release of MC Internal Elections',
     date: '12 Sep 2025, Friday',
     description:
-      'The results of the external elections for NUSSU Reps are announced.',
+      'The results of the MC Internal Elections are announced.',
   },
   {
     title: 'Club Annual General Meeting',
@@ -62,7 +62,7 @@ export const TimelineEvents = [
     title: '47th NUSSU Council First Council Meeting',
     date: '20 Sep 2025, Sunday - 21 Sep 2025, Monday',
     description:
-      'The first council meeting of the 46th NUSSU Council to outline the agenda for the new term.',
+      'The first council meeting of the 47th NUSSU Council to outline the agenda for the new term.',
   },
   // {
   //   title: 'Club Annual General Meeting',
@@ -234,7 +234,7 @@ export const wingsData = [
       { name: 'Vice President (Student Development)' },
       {
         name: 'Director of Academic Liaison',
-        subRoles: ['Deputy Director of Academic Liaison'],
+        subRoles: ['Deputy Director of Academic Liaison x 2'],
       },
       { name: 'Director of Community Engagement' },
       {
