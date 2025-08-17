@@ -60,8 +60,8 @@ function ElectionsProcess() {
             <li>
               Candidates are required to submit the following documents to <a href='mailto:elections@nuscomputing.com' className='text-[#e58e26]'><strong>elections@nuscomputing.com</strong></a> by <b><u>24 August 2025, 1200H</u></b>:
               <ol type='a' className='list-inside ml-8 mt-2 space-y-2' style={{ listStyle: 'lower-alpha' }}>
-                <li><a href='/elections/27th Management Committee Nominee Application FormA.docx' target='_blank' className='text-red-600'><strong>Nominee Agreement Form (Form A)</strong></a></li>
-                <li><a href='/elections/27th Management Committee Nominee Application FormB.docx' target='_blank' className='text-red-600'><strong>Nominee Agreement Form (Form B)</strong></a></li>
+                <li><a href='/elections/28th Management Committee Nominee Application FormA.docx' target='_blank' className='text-red-600'><strong>Nominee Agreement Form (Form A)</strong></a></li>
+                <li><a href='/elections/28th Management Committee Nominee Application FormB.docx' target='_blank' className='text-red-600'><strong>Nominee Agreement Form (Form B)</strong></a></li>
               </ol>
             </li>
             <li>
@@ -81,7 +81,7 @@ function ElectionsProcess() {
             <li>
               Candidates are required to submit the following documents to <a href='mailto:elections@nuscomputing.com' className='text-[#e58e26]'><strong>elections@nuscomputing.com</strong></a> by <b><u>24 August 2025, 1200H</u></b>:
               <ol type='a' className='list-inside ml-8 mt-2 space-y-1' style={{ listStyle: 'lower-alpha' }}>
-                <li><a href='/elections/46th EXCO REPRESENTATIVE NOMINATION FORM.docx' target='_blank' className='text-red-600'><strong>47th EXCO Representative Nomination</strong></a></li>
+                <li><a href='/elections/47th EXCO REPRESENTATIVE NOMINATION FORM.docx' target='_blank' className='text-red-600'><strong>47th EXCO Representative Nomination</strong></a></li>
               </ol>
             </li>
             <li>
