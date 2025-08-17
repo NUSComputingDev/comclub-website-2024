@@ -139,11 +139,11 @@ export const informationalData = [
     link: '/elections/AY2025_26_NUS_Students\'_Computing_Club_Election_Standing_Orders.pdf',
     color: '#78e08f',
   },
-  //{
-  //  title: 'Computing Club 27th MC Elections Information Pamphlet',
-  //  link: '/elections/27th Computing Club Elections Info Pamphlet.pdf',
-  //  color: '#93c6c3',
-  //},
+  {
+    title: 'Computing Club 28th MC Elections Information Pamphlet',
+    link: '/elections/28th Computing Club Elections Info Pamphlet.pdf',
+    color: '#93c6c3',
+  },
 ];
 
 export const regulationsData = [
