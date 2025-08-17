@@ -18,7 +18,7 @@ function Timeline() {
               >
                 The election will run through the first half of{' '}
                 <span className='text-primary font-bold'>
-                  AY24/25 Semester 1
+                  AY25/26 Semester 1
                 </span>
                 . Do take note of key dates and events. For more information
                 about each phase, check out our{' '}

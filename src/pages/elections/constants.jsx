@@ -1,62 +1,68 @@
 export const TimelineEvents = [
   {
     title: 'Nomination Period Starts',
-    date: '12 Aug 2024, Monday',
+    date: '18 Aug 2025, Monday 0900hr',
     description:
       'Nomination period starts for the election of the new committee members.',
   },
   {
     title: 'Nomination Period Ends',
-    date: '18 Aug 2024, Sunday 12PM',
+    date: '24 Aug 2025, Sunday 1200hr',
     description:
-      'The final day for submitting nominations for the election of the new committee members. No further submissions after 12pm.',
+      'The final day for submitting nominations for the election of the new committee members. No further submissions after 1200hr.',
   },
   {
-    title: 'Campaigning Period',
-    date: '20 Aug 2024, Tuesday - 26 Aug 2024, Monday',
-    description: 'Candidates campaign to gather support from the voters.',
+    title: 'Interview',
+    date: '25 Aug 2025, Monday 1200hr',
+    description:
+      'Candidates will be invited to an interview with the Elections Committee and Advisors.',
+  },
+  {
+    title: 'Campaigning Period and EGM',
+    date: '26 Aug 2025, Tuesday 0000hr - 1 Sept 2025, Monday 2359hr',
+    description: 'Candidates campaign to gather support from the voters and be invited to the EGM (External General Meeting) on the 28th and 29th of August, 1830hr to 2200hr, and 30th of August, 1000hr onwards.',
   },
   {
     title: 'Cooling Off Day (Computing Club MC External Elections)',
-    date: '27 Aug 2024, Tuesday',
+    date: '2 Sept 2025, Tuesday',
     description:
       'A day for voters to reflect on their choices before voting, with no campaigning allowed.',
   },
   {
-    title: 'MC External Elections',
-    date: '28 Aug 2024, Wednesday - 30 Aug 2024, Friday',
+    title: 'MC and Exco Rep External Elections',
+    date: '3 Sep 2025, Wednesday 0900hr - 5 Sep 2025, Friday 2359hr',
     description:
-      'MC External Elections are held to elect representatives for the different wings.',
+      'MC and External Rep External Elections are held to elect representatives.',
   },
   {
-    title: 'MC External Elections Results & Cooling Off Day (NUSSU Reps External Elections)',
-    date: '1 Sep 2024, Sunday',
+    title: 'Results Release of MC and Exco Rep External Elections',
+    date: '7 Sep 2025, Sunday',
     description:
-      'The results of the MC External Elections are announced, along with a cooling-off day for NUSSU Reps External Elections.',
+      'The results of the MC and Exco Rep External Elections are announced.',
   },
   {
-    title: 'NUSSU Representatives Elections',
-    date: '2 Sep 2024, Monday',
+    title: 'MC Internal Elections Period',
+    date: '8 Sep 2025, Monday - 9 Sep 2025, Tuesday, 1830hr to 2200hr, and 10 Sep 2025, Wednesday 1000hr onwards',
     description:
-      'Elections are held to elect representatives for the NUSSU Council.',
+      'Internal Elections are held to elect representatives.',
   },
   {
-    title: 'NUSSU Reps External Election Results Release',
-    date: '4 Sep 2024, Wednesday',
+    title: 'Results Release of MC Internal Elections',
+    date: '12 Sep 2025, Friday',
     description:
       'The results of the external elections for NUSSU Reps are announced.',
   },
   {
-    title: 'Internal Elections',
-    date: '5 Sep 2024, Thursday - 7 Sep 2024, Saturday',
+    title: 'Club Annual General Meeting',
+    date: '18 Sep 2025, Thursday 1830hr to 2030hr (tentative)',
     description:
-      'Internal elections are held to elect specific roles within the organization.',
+      'The annual general meeting of the club to discuss the past year and future plans.',
   },
   {
-    title: 'Results Release of Internal Elections',
-    date: '9 Sep 2024, Monday',
+    title: '47th NUSSU Council First Council Meeting',
+    date: '20 Sep 2025, Sunday - 21 Sep 2025, Monday',
     description:
-      'The results of the internal elections are announced.',
+      'The first council meeting of the 46th NUSSU Council to outline the agenda for the new term.',
   },
   // {
   //   title: 'Club Annual General Meeting',
@@ -84,7 +90,7 @@ export const FAQ = [
       'The amount of commitment varies between every role and also depends on the number of initiatives/events you wish to push out. Contact the respective MC members for a clearer understanding of the commitment level. You can reach us at elections@nuscomputing.com!',
   },
   {
-    question: 'What\'re all the roles in Computing Club?',
+    question: 'What are all the roles in Computing Club?',
     answer: 'You can find all the roles and their responsibilities below.',
   },
   {
@@ -110,18 +116,18 @@ export const FAQ = [
 
 export const nominationsFormsData = [
   {
-    title: '27th Management Committee Application FormA',
-    link: '/elections/27th Management Committee Nominee Application FormA.docx',
+    title: '28th Management Committee Application FormA',
+    link: '/elections/28th Management Committee Nominee Application FormA.docx',
     color: '#778beb',
   },
   {
-    title: '27th Management Committee Application FormB',
-    link: '/elections/27th Management Committee Nominee Application FormB.docx',
+    title: '28th Management Committee Application FormB',
+    link: '/elections/28th Management Committee Nominee Application FormB.docx',
     color: '#f19066',
   },
   {
-    title: '46th Exco Representative Nomination Form',
-    link: '/elections/46th EXCO REPRESENTATIVE NOMINATION FORM.docx',
+    title: '47th Exco Representative Nomination Form',
+    link: '/elections/47th EXCO REPRESENTATIVE NOMINATION FORM.pdf',
     color: '#395B9B',
   },
 ];
@@ -129,15 +135,15 @@ export const nominationsFormsData = [
 export const informationalData = [
   {
     title:
-      'AY 2024/2025 NUSSU Students\' Computing Club Election Standing Orders',
-    link: '/elections/AY2024_25_NUS_Students\'_Computing_Club_Election_Standing_Orders.pdf',
+      'AY 2025/2026 NUSSU Students\' Computing Club Election Standing Orders',
+    link: '/elections/AY2025_26_NUS_Students\'_Computing_Club_Election_Standing_Orders.pdf',
     color: '#78e08f',
   },
-  {
-    title: 'Computing Club 27th MC Elections Information Pamphlet',
-    link: '/elections/27th Computing Club Elections Info Pamphlet.pdf',
-    color: '#93c6c3',
-  },
+  //{
+  //  title: 'Computing Club 27th MC Elections Information Pamphlet',
+  //  link: '/elections/27th Computing Club Elections Info Pamphlet.pdf',
+  //  color: '#93c6c3',
+  //},
 ];
 
 export const regulationsData = [
@@ -148,18 +154,18 @@ export const regulationsData = [
   // },
   {
     title: 'Union Election Standing Orders',
-    link: '/elections/Union Election Standing Orders AY24-25.pdf',
+    link: '/elections/Union Election Standing Orders AY25-26.pdf',
     color: '#778beb',
   },
   {
     title: 'NUSSU Executive Committee Election Regulations',
-    link: '/elections/NUSSU_Executive_Committee_Election_Regulations_Rev_Ed_2021_Mar.pdf',
+    link: '/elections/Constituent_Club_Management_Committee_Election_Regulations_Rev_Ed.pdf',
     color: '#f19066',
   },
   {
-    title: 'Constituent Club Management Committee Election Regulations',
-    link: '/elections/Constituent_Club_Management_Committee_Election_Regulations_Rev_Ed.pdf',
-    color: '#78e08f',
+    title: 'NUS Computing Club Consititution',
+    link: '/elections/NUS Computing Club Constitution.pdf',
+    color: '#f19066',
   },
   // {
   //   title:
@@ -171,15 +177,15 @@ export const regulationsData = [
 
 export const officers = [
   {
-    name: 'Mervyn Seah',
+    name: 'Jolyn Leow',
     role: 'Returning Officer',
   },
   {
-    name: 'Jamie Ho',
+    name: 'Chin Cherng Yuen',
     role: 'Election Officer',
   },
   {
-    name: 'Ng Le Xuan',
+    name: 'Ryan Neo',
     role: 'Election Officer',
   },
 ];
@@ -190,7 +196,7 @@ export const wingsData = [
     roles: [
       { name: 'President' },
       { name: 'Finance Secretary', subRoles: ['Deputy Finance Secretary'] },
-      { name: 'Tech Lead', subRoles: ['Deputy Tech Lead'] },
+      { name: 'Tech Lead'},
       { name: 'General Secretary', subRoles: ['Deputy General Secretary'] },
     ],
     link: 'elections/presidentialwing.html',
@@ -232,8 +238,10 @@ export const wingsData = [
       },
       { name: 'Director of Community Engagement' },
       {
-        name: 'Director of Rag & Flag',
-        subRoles: ['Deputy Director of Rag & Flag'],
+        name: 'Director of Rag',
+      },
+      {
+        name: 'Director of Flag',
       },
     ],
     link: 'elections/studentdevelopment.html',
@@ -243,11 +251,7 @@ export const wingsData = [
     roles: [
       { name: 'Vice President (Student Life)' },
       {
-        name: 'Director of Freshmen Orientation Projects',
-        subRoles: [
-          'Deputy Director of Freshmen Orientation Projects',
-          'Deputy Director of Freshmen Orientation Projects',
-        ],
+        name: 'Director of Freshmen Orientation Projects x 3',
       },
       {
         name: 'Director of Student Engagement',
