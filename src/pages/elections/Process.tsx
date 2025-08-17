@@ -81,7 +81,7 @@ function ElectionsProcess() {
             <li>
               Candidates are required to submit the following documents to <a href='mailto:elections@nuscomputing.com' className='text-[#e58e26]'><strong>elections@nuscomputing.com</strong></a> by <b><u>24 August 2025, 1200H</u></b>:
               <ol type='a' className='list-inside ml-8 mt-2 space-y-1' style={{ listStyle: 'lower-alpha' }}>
-                <li><a href='/elections/46th EXCO REPRESENTATIVE NOMINATION FORM.docx' target='_blank' className='text-red-600'><strong>46th EXCO Representative Nomination</strong></a></li>
+                <li><a href='/elections/46th EXCO REPRESENTATIVE NOMINATION FORM.docx' target='_blank' className='text-red-600'><strong>47th EXCO Representative Nomination</strong></a></li>
               </ol>
             </li>
             <li>
@@ -91,7 +91,7 @@ function ElectionsProcess() {
               Consultation will be on the expected roles and duties to be undertaken as a NUSSU Executive Committee Representative. In order to provide a more holistic view of the expected roles and duties, the consultation will be limited to elected members of the Presidential Wing<strong className='text-red-600'>***</strong>
             </li>
           </ol>
-          <p className='text-red-600 mt-4'><strong>***</strong> The full list of members can be found in the AY 2024/2025 NUSSU Students' Computing Club Election Standing Orders under the <a href='#documents-section' className='text-blue-600 underline'>documents</a>.</p>
+          <p className='text-red-600 mt-4'><strong>***</strong> The full list of members can be found in the AY 2025/2026 NUSSU Students' Computing Club Election Standing Orders under the <a href='#documents-section' className='text-blue-600 underline'>documents</a>.</p>
         </div>
       </div>
 
