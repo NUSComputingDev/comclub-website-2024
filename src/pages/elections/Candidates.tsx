@@ -131,16 +131,17 @@ export function Candidates() {
               ref={ref}
               className='w-full max-w-[800px] h-full sm:h-fit md:max-h-[93%] px-2 flex flex-col sm:flex-row bg-white sm:rounded-3xl overflow-auto self-center sm:overflow-hidden'
             >
-              <motion.div
-                className='w-full mb-0 my-16 sm:my-auto'
-                layoutId={`image-${active.title}-${id}-${active.id}`}
-              >
-                <img
-                  src={active.src}
-                  alt={active.title}
-                  className=' w-[500px] sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-center self-center h-96 sm:h-fit rounded-lg'
-                />
-              </motion.div>
+            <motion.div
+              className="w-full my-16 sm:my-auto"
+              layoutId={`image-${active.title}-${id}-${active.id}`}
+            >
+              <img
+                src={active.src}
+                alt={active.title}
+                className="w-full h-auto sm:rounded-tr-lg sm:rounded-tl-lg rounded-lg object-cover object-center"
+              />
+            </motion.div>
+
 
               <div className='w-full pt-8'>
                 <div className='flex justify-between items-start p-4'>
