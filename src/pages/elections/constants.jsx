@@ -266,83 +266,48 @@ export const wingsData = [
 export const cards = [
   {
     id: 1,
-    description: 'Finance Secretary Candidate',
-    title: 'Chen Dong Jun',
-    src: '/elections/candidates/chendongjun.jpg',
-    ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Computer Science',
-    content: () => {
-      return (
-        <p>
-          Hi, my name is Dong Jun, a Y1 CS major and I am running for Finance
-          Secretary. Finance security and independence has been something that I
-          care about deeply and I hope to be able to contribute in a related way
-          to SoC. Having worked at an admin job in a construction company
-          before, I have developed analytical and organization skills that can
-          serve as a foundation for the role. Regardless of past experience, I
-          believe in perpetual improvement and would strive to learn even more
-          from my peers and seniors. I believe that my meticulous nature and
-          willingness to work hard would be instrumental in ensuring the
-          accuracy of financial reports and the success of SoC projects. I aim
-          to optimise budgetary processes so that our community can get more
-          with less expenditure. Let me show you how less is more.
-        </p>
-      );
-    },
-  },
-  {
-    id: 2,
-    description: 'Director, Rag and Flag Candidate',
-    title: 'Choong Jing Xiang',
-    src: '/elections/candidates/jingxiang.jpeg',
-    ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Computer Science',
-    content: () => {
-      return (
-        <p>
-          Hello everyone, I’m Choong Jing Xiang, a first-year Computer Science
-          student here at the School of Computing. Before starting university, I
-          was excited about all the new learning opportunities and unique
-          experiences NUS offers, but at the same time, I felt apprehensive as
-          this was so different from everything that I know and I believe many
-          of you share the same sentiments. However, through the Freshmen
-          Orientation Programs and Rag and Flag, I felt an incredible sense of
-          welcome and belonging within the SoC family which helped me better
-          transition into university life. If I were to be elected as the
-          Director of Rag and Flag, my goal is to give back to the school and
-          the student body as well as provide this unique experience to the next
-          batch of freshmen to help make them feel at home. And of course,
-          Computing Rag and Flag Overall Champion 2025?
-        </p>
-      );
-    },
-  },
-  {
-    id: 3,
-    description: 'Vice-President (External Relations) Candidate',
-    title: 'Lee Miao En Emelyn',
-    src: '/elections/candidates/emelynlee.jpg',
+    description: 'Vice-President (Internal Relations) Candidate',
+    title: 'Shananth Sivakumar',
+    src: '/elections/candidates/shananth.jpg',
     ctaText: 'View More',
     year: 'Year 2',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
-          Hi! I’m Emelyn and I’m running for the position of Vice-President
-          External Relations (VP ER). The three words that describe me are
-          earnest, mindful, and steadfast. I care deeply about our community,
-          and no matter the situation, I will always have your best interests at
-          heart. I believe strongly in being fully present and in giving my time
-          and attention to the problem at hand. My goal is to provide the
-          unyielding strength you need to navigate difficult situations. The
-          role of VP ER is an outward-facing one that requires one to
-          communicate with external parties on behalf of SOC. I believe that in
-          this position, it’s essential to consistently strive for outcomes that
-          benefit the students while standing firm when challenges arise. If
-          elected, I will dedicate myself to forging valuable and meaningful
-          connections that truly benefit our community.
+          I am Shananth, currently a year 2 computer science student. I am running for the role of Vice  President (Internal Relations) for the 28th Computing Club Management Committee. As a  future Vice President (Internal Relations), I am committed to creating a cohesive,  collaborative, and inclusive environment within computing. I will ensure that there is strong internal communication, transparent decision-making, and structured avenues for feedback  so every voice is valued. With prior leadership experience as a deputy welfare director, I  understand the importance of trust, versatility, and teamwork. With the skills I have  acquired from my previous leadership role, I hope to improve SoC culture and enrich student experience. With your help, I will be granted the ability to foster a strong and well-bonded  computing society. Last but not least, I promise to always give my best and ensure that every  voice in computing is heard as every single one of you matter!
+        </p>
+      );
+    },
+  },
+  {
+    id: 2,
+    description: 'Deputy Director, Welfare Candidate',
+    title: 'Gullapalli Chetan',
+    src: '/elections/candidates/gullapalli_chetan.jpeg',
+    ctaText: 'View More',
+    year: 'Year 1',
+    major: 'Computer Science',
+    content: () => {
+      return (
+        <p>
+          Hi, my name is Chetan and I'm a Year 1 Computer Science student. In my free time, I like to play football and cycle. I am also very interested in bikes and cars. I am running for the role of Deputy Director of Welfare. If I get elected, I will be involved in planning events and initiatives to enhance your experience in SoC. I have had previous welfare experience in JC as well so I am excited to be able to continue in a similar role here at SoC. 
+        </p>
+      );
+    },
+  },
+  {
+    id: 3,
+    description: 'Director, Academic Liaison Candidate',
+    title: 'Rohan Varatharajan',
+    src: '/elections/candidates/rohanvaratharajan.jpg',
+    ctaText: 'View More',
+    year: 'Year 1',
+    major: 'Business Analytics',
+    content: () => {
+      return (
+        <p>
+          
         </p>
       );
     },
@@ -350,105 +315,67 @@ export const cards = [
   {
     id: 4,
     description: 'President Candidate',
-    title: 'Liu YuHang',
-    src: '/elections/candidates/liuyuhang.jpg',
+    title: 'Chen Dong Jun',
+    src: '/elections/candidates/chen_dong_jun.png',
     ctaText: 'View More',
-    year: 'Year 1',
+    year: 'Year 2',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
-          Dare to reach the highest ! As an experienced campus leader, an
-          education business boss(&CEO) leading 172 employees, and a prominent
-          Information Olympiad competitor, I dare to reach the highest and run
-          for Computing Club’s President. I am ready to stear SoC family to a
-          promising future with my great passion, effective communication and
-          practical actions.
+          Hi, I’m Dong Jun, a Year 2 Computer Science student, and I am running for President of Computing Club. As president, my vision is to create a warm and supportive environment where every management committee (MC) member can grow and flourish in their roles — so that together, we can better serve the SoC student population. To achieve this, I am committed to actively resolving conflict and supporting MC members when they face roadblocks. 
+          
+          Having served as Finance Secretary, I had the opportunity to participate in Presidential Wing meetings. This experience gave me valuable insights into the challenges of planning and executing the various Computing Club events. With this knowledge, I will guide the new committee to avoid past pitfalls and improve the overall quality of our events.
+          
+          With your support, we can bring Computing Club to new heights and make SoC a better place for all students!
         </p>
       );
     },
   },
   {
     id: 5,
-    description: 'Vice-President (Internal Relations) Candidate',
-    title: 'Mu Junrong',
-    src: '/elections/candidates/Mu_Junrong_photo.jpg',
+    description: 'General Secretary Candidate',
+    title: 'Chee Hann Yu',
+    src: '/elections/candidates/chee_hann_yu.jpg',
     ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Computer Science',
+    year: 'Year 2',
+    major: 'Business Analytics',
     content: () => {
       return (
         <p>
-          Hi SoC! I am Junrong. As a candidate for Vice President (Internal
-          Relations) and Director of Welfare, I am committed to serving you and
-          enhancing your experience at SoC. I aim to create a more supportive,
-          inclusive and vibrant community in SoC through engaging sports and
-          cultural events, along with welfare initiatives that address your
-          needs and reduce stress. Whether you are an introvert or extrovert, a
-          local buddy or international friend, there is always something for
-          you. SoC will be your second home, your strongest pillar of support
-          and the place to unleash your potential. With my experience in the
-          Students’ Council where I served as the House Captain and led many
-          meaningful initiatives, I have developed strong event planning and
-          collaboration skills to serve you. I will be your loyal listener and
-          strongest supporter, turning your ideas into actions. With your
-          support, I am ready to make your SoC journey fulfilling and memorable!
+          Hi! I’m Hann Yu, a Y2 BZA student, aspiring to be your next General Secretary.  My journey with Comp Club began with my amazing experience at FOW’24, which inspired me to join the 27th MC as its Sponsorship Director. Over the past year, I’ve worked hard to give back to the SOC community that felt like home since day 1. As the ex-sponsorship director, I’m well versed in external stakeholder management and I aspire to apply those skills internally, as the General Secretary. I was involved internally too, including staying late into the night for Exam Welfare Packing, as a House Head of FOW’25 and many more events.  If elected, I am committed to ensuring Comp Club’s smooth administrative function, using my extensive experience to guide the next MC. Together, we can create a Comp Club that truly serves YOU, the people, the essence, the life of SOC.
         </p>
       );
     },
   },
   {
     id: 6,
-    description: 'Director, FOP Candidate',
-    title: 'Gowri Sumesh Menon',
-    src: '/elections/candidates/gowri.jpg',
+    description: 'Deputy Finance Secretary Candidate',
+    title: 'Jha Satwik',
+    src: '/elections/candidates/satwik.jpg',
     ctaText: 'View More',
-    year: 'Year 1',
+    year: 'Year 3',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
-          I am someone who enjoys meeting and working with new people. I have
-          been involved in orientation projects in school and junior college
-          many times and truly enjoy the process of getting to know someone new
-          and helping to ease them into a new community. Despite my interest in
-          student engagement and my leadership experiences in council, I have
-          never taken on such a big role before. Which is why I believe that
-          becoming the FOPD will help me venture outside my comfort zone and
-          explore my interests. I am aware that as FOPD, I am going to be
-          entrusted with many responsibilities and put under pressure many
-          times, but I believe that I will be able to fulfill the role well. I
-          am coming into this election to learn and regardless of my role in
-          FOP, I hope to take back many life lessons and experiences with me.
+          My journey with Com Club began with the unforgettable experience of FSC ’23, which inspired me to join this vibrant community. Over the past year, I have had the privilege of contributing to events like the exam welfare pack distribution and the archery funshoot ’24, which allowed me to bond with fellow members while giving back to the student body. As Deputy Finance Secretary, I aim to support the smooth financial operations of the Club by ensuring accountability, transparency, and efficiency in managing resources. Beyond the numbers, I see this role as a chance to help Com Club grow sustainably, enabling us to continue organizing meaningful events and initiatives. Together, we can build a strong foundation that empowers students to feel connected, supported, and excited to be part of our community.
         </p>
       );
     },
   },
   {
     id: 7,
-    description: 'Director, FOP Candidate',
-    title: 'Ryan Neo',
-    src: '/elections/candidates/ryanneo.PNG',
+    description: 'Finance Secretary Candidate',
+    title: 'Jovi Chow Yi Kit',
+    src: '/elections/candidates/jovi_chow.jpg',
     ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Computer Science',
+    year: 'Year 2',
+    major: 'Business Analytics',
     content: () => {
       return (
         <p>
-          Hello! I am Ryan Neo, a Year 1 Computer Science student. I wish to
-          join the Management Committee because of my passion for serving and
-          representing the student body. I take great pride in my leadership
-          capabilities and believe I would be well-suited to be your voice and
-          instil change for the betterment of all students. Particularly, I am
-          running for the role of Director, Freshmen Orientation Projects.
-          Having attended orientation myself, I had an incredibly great time and
-          recognised the importance of being able to execute such camps where we
-          assimilate students into their new home of SoC. These are the most
-          crucial touchpoints where freshmen get to befriend their peers and
-          seniors, uniting SoC across different levels. I hope to continue the
-          good work of my predecessors, striving to provide fun and memorable
-          experiences for our freshmen, making them feel welcomed and
-          cultivating our shared sense of identity.
+          Hi! I’m Jovi, a Y2 Business Analytics student, and I’m running to be your next Finance Secretary. Within the SOC subcommittee, I served as FOW’25 Finance Secretary and Welfare Cell Treasurer, where I handled budget tracking, allocations, and reimbursements from start to finish. These experiences, together with a diploma in Accountancy and auditing experience at PwC, have equipped me with practical and technical financial skills to manage the administrative demands of Finance Secretary with diligence and accuracy. If elected, I will ensure Com Club’s finances, planning, allocations, and reimbursements are managed efficiently and responsibly, keeping operations smooth and every initiative well supported.
         </p>
       );
     },
@@ -456,156 +383,124 @@ export const cards = [
   {
     id: 8,
     description: 'Finance Secretary Candidate',
-    title: 'Sun Jiaen',
-    src: '/elections/candidates/sunjiaen.jpg',
+    title: 'Goh Tze Hao, Xander',
+    src: '/elections/candidates/xander.jpg',
     ctaText: 'View More',
-    year: 'Year 2',
+    year: 'Year 1',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
-          Hi, I'm Sun Jiaen, a Year 2 Computer Science student. Previously, I
-          was in Year 1 of Business Analytics. I'm running for a position in the
-          Computing Club since it has significantly enriched my university
-          experience. From the vibrant orientation events to the thoughtful exam
-          goodie bags, the club’s commitment to student welfare has deeply
-          impressed me. I chose to run for the Deputy Finance Secretary since I
-          believe that I possess the required qualities to do justice to the
-          position. My experience as an Amazon logistics executive intern has
-          equipped me with the necessary organizational and financial skills to
-          excel in this role. Additionally, my involvement in NUS Biathlon
-          committee as marketing executive has provided me with valuable
-          experience in securing sponsorships and managing partnerships. As a
-          Deputy Finance Secretary, I will diligently manage the club’s budget,
-          ensuring accurate financial records and timely submission of all
-          required reports. I will also prioritize securing funds and allocating
-          resources that are actually needed to support the vibrant activities
-          that make our SoC community thrive. Please vote for me!
+          Don't you love money? So do I! Hello! My name is Xander, a Year 1 Computer Science student and I am running for Finance Secretary in the Computing Club committee. If elected, you will not have to worry about your faculty funds for I will ensure that every dollar is accounted for and fairly used for any event as a reliable and upright member. Beyond numbers, I intend to give my all in creating a more well-bonded Computing community for everyone, just like what I had experienced through Rag and Flag, and provide fresh opportunities for all to shine. I hope to play a significant part in your SoC journey by making your academic year enjoyable and iconic. Don’t be shy and feel free to chat with me if you see me around school. Just like how every cent matter, every one of your voices matter too!
         </p>
       );
     },
   },
   {
     id: 9,
-    description: 'Director, Welfare Candidate',
-    title: 'Ravichandran Gokul',
-    src: '/elections/candidates/ravi.jpg',
+    description: 'Director, Rag Candidate',
+    title: 'Niles Loh Xiang Xing',
+    src: '/elections/candidates/niles_loh.jpg',
     ctaText: 'View More',
     year: 'Year 1',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
-          I am Ravichandran Gokul, a Year 1 Computer Science student, and I am
-          running for Director of Welfare under the Internal Relations wing of
-          Management Committee in Computing Club. What led me to run for this
-          position is a vision; one that I hope will come to fruition for
-          AY2024/2025. University life is filled with numerous trials and
-          tribulations which will take a toll on all of us students from time to
-          time. My goal is to reinforce a culture where students feel free to
-          feed off each other’s energy and foster a strong sense of community in
-          the process. To achieve this, I aim to conduct interactive and
-          engaging welfare activities and prepare welfare arrangements in timely
-          intervals. I aim to seek a greater understanding of the student
-          populace so that these actions could have the greatest impact
-          possible. Together, we can enhance and deepen our welfare and
-          satisfaction!
+          Hello everyone, I am Niles Loh, a year 1 Computer Engineering Major. Midway through Computing Rag 2025, I had thoughts of running to be the next Project Director. Rag was a unique experience; it was nothing like the previous orientations I had organized or participated in. 
+          
+          When it was announced that we had won the bronze award, I remember the stinging frustration that hit me. I remember the tears of my peers standing beside me. We were proud of our performance, but the bronze award label just felt wrong. 
+          
+          After spending nights analyzing past years’ gold award Rags and thinking of how Computing could have done better, I made up my mind to run for the position of Director of Rag.
+          
+          If elected, I will bring a clear vision, strategic planning, and relentless execution to this project. To win gold, we must Plan Well, Execute Better, and Win Big.
+
         </p>
       );
     },
   },
   {
     id: 10,
-    description: 'Vice-President (Internal Relations) Candidate',
-    title: 'Jha Satwik',
-    src: '/elections/candidates/jhasatwik.jpg',
-    ctaText: 'View More',
-    year: 'Year 2',
-    major: 'Computer Science',
-    content: () => {
-      return (
-        <p>
-          My journey with Com Club began with the unforgettable experience of
-          FSC ’23, which inspired me to join this vibrant community. Over the
-          past year, I have had the privilege of organizing events like the exam
-          welfare pack distribution and the archery funshoot ’24, all of which
-          have allowed me to forge strong connections and create lasting
-          memories with fellow members and classmates. As Vice President of
-          Internal Relations, my goal is to foster the same spirit of fun,
-          friendship, and enrichment that I have enjoyed. I am committed to
-          enhancing the internal culture of Com Club by organizing engaging
-          events, promoting inclusivity, and building stronger bonds among
-          students. Together, we can create an environment where everyone feels
-          valued, connected, and excited to participate.
-        </p>
-      );
-    },
-  },
-  {
-    id: 11,
-    description: 'Vice-President (Student Life) Candidate',
-    title: 'Jolyn Leow',
-    src: '/elections/candidates/jolyn.jpeg',
-    ctaText: 'View More',
-    year: 'Year 2',
-    major: 'Computer Science',
-    content: () => {
-      return (
-        <p>
-          Hello! I am Jolyn Leow, aspiring to be your next Vice President
-          (Student Life). I am very passionate in serving the SoC community,
-          which has shaped my university life positively. Having been actively
-          involved in organizing one of the Computing Orientation camps this
-          year, I have gained valuable insights into event management and
-          student engagement. Leveraging on this significant experience, I am
-          committed to creating a vibrant and supportive environment, where
-          every student can connect, thrive and create lasting memories in SoC.
-          My dedication to serving the student population, coupled with my
-          experience and understanding of student needs, equips meto better
-          enhance the student life and experience in SoC. Together with the
-          Management Committee members, I hope to build an SoC that is more than
-          just an academic hub, but also an inclusive and welcoming community
-          where every student feels at home.
-        </p>
-      );
-    },
-  },
-  {
-    id: 12,
     description: 'Director, Welfare Candidate',
-    title: 'Shananth Sivakumar',
-    src: '/elections/candidates/shananth.jpg',
+    title: 'Eu Guang En Joshua',
+    src: '/elections/candidates/joshua_eu.jpg',
     ctaText: 'View More',
     year: 'Year 1',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
-          I am running for the role of Welfare IC in the Computing Club since I
-          am extremely passionate about creating a well bonded computing family.
-          Given the endless assignments and heavy workload, students sometimes
-          do not feel valued and heard. Therefore, I aim to create an open
-          communication channel whereby everyone can share their opinions on
-          what could aid in the betterment of their life so that I can do my
-          best in making it happen. Furthermore, I am also committed to
-          embedding welfare with events which encourage social connection while
-          advocating for a respectful and inclusive culture. Together, we can
-          ensure that everyone not only excels academically but also feels
-          supported and empowered during this journey. You guys can help me turn
-          this vision into reality, ensuring that this isn’t just a place for us
-          to learn but also to thrive.
+          Hi, I’m Joshua, a Year 1 Computer Science student running for the Welfare role under Internal Relations. As a new member of the SoC, I can feel the importance of community here, and how it can contribute to better learning and overall better mental health, just knowing that there will always be someone out there looking out for you.
+          
+          I may be new, but I bring enthusiasm, empathy, and determination to learn. My approachable nature allows me to listen to your concerns, while my proactive attitude drives me to turn ideas into action.
+          
+          As Welfare Director, I aim to be a channel for communication for you, organise and execute welfare initiatives during tough times, and foster an environment where everyone feels valued.
+          
+          University life may be rough, but I hope to be a beacon to my fellow students, allowing each and every one of you to thrive in SoC.
+        </p>
+      );
+    },
+  },
+  {
+    id: 11,
+    description: 'General Secretary Candidate',
+    title: 'Adhiraj Gupta',
+    src: '',
+    ctaText: 'View More',
+    year: 'Year 1',
+    major: 'Computer Science',
+    content: () => {
+      return (
+        <p>
+ 
+        </p>
+      );
+    },
+  },
+  {
+    id: 12,
+    description: 'Deputy Director, Sports Candidate',
+    title: 'Jeyaraj Justin',
+    src: '/elections/candidates/jeyaraj_justin.jpg',
+    ctaText: 'View More',
+    year: 'Year 1',
+    major: 'Business Artificial Intelligence Systems',
+    content: () => {
+      return (
+        <p>
+          Hihi, my name is Jeyaraj Justin and I am running for the Deputy Director of Sports. I am a newbie when it comes to computing so entering NUS SoC was daunting. It was through orientation week where I got accustomed to the SoC family and was introduced to the Computing Club including the impact it has on welcoming freshies into not just SoC but NUS as a whole. I hope to carry forward this impact that Computing Club has to not just the upcoming freshies but also to the current student population together as a team. My goal is to build a sense of community through sports events planned out for you. Regardless if you are staying in halls, an introvert or an extrovert, I believe that there’s always something fun to try out and I hope to see y’all around! Anyways, here’s to a great university experience ahead!
         </p>
       );
     },
   },
   {
     id: 13,
-    description: 'General Secretary Candidate',
-    title: 'Parama Roy Poja',
+    description: 'Deputy Director, Welfare Candidate',
+    title: 'Simon Christian Luigi Soriano',
+    src: '/elections/candidates/simon.jpg',
+    ctaText: 'View More',
+    year: 'Year 1',
+    major: 'Computer Science',
+    content: () => {
+      return (
+        <p>
+          Hi, I'm Simon, aiming to be your Deputy Director of Welfare. The stereotype of SOC students as 'sleepless zombies' working 24/7 needs to change. Under my jurisdiction, this stigma will be dismantled, and your efforts will be rewarded.
+          
+          I am a firm believer of concrete welfare initiatives: multiple welfare days throughout your university course, not just one. Imagine welfare fairs, tech freebies, and SOC merch! With such initiatives, I will do my best to make sure you are proud to be a computing student, ensuring mental breaks and recognition for your hard work.
+          
+          If you feel that SOC students are deserving of such welfare, put your faith in me. Together, we can create a new era of welfare for all.
+        </p>
+      );
+    },
+  },
+  {
+    id: 14,
+    description: 'Director, FOP Candidate',
+    title: 'Natalie Kirana Cher',
     src: '/elections/candidates/.jpg',
     ctaText: 'View More',
-    year: 'Year 2',
-    major: 'Business Analytics',
+    year: '',
+    major: '',
     content: () => {
       return (
         <p>
@@ -614,16 +509,37 @@ export const cards = [
     },
   },
   {
-    id: 14,
-    description: 'President Candidate',
-    title: 'Raeeda Ibnat Hossain',
-    src: '/elections/candidates/.jpg',
+    id: 15,
+    description: 'Director, Academic Liaison Candidate',
+    title: 'Ma Mingyang',
+    src: '/elections/candidates/ma_mingyang.jpg',
     ctaText: 'View More',
-    year: 'Year 2',
+    year: 'Year 1',
     major: 'Computer Science',
     content: () => {
       return (
         <p>
+          Hello, I’m Ma Mingyang, running for Academic Liaison. Low-latency bridge. Clear answers. I see this role as router in SoC’s network—connecting students, faculty, and resources with minimal hops, no jargon. My style is humble and curious: I listen first, ask when I don’t know, translate concerns clearly, and close the loop so questions don’t disappear. Rather than add new events, I’ll focus on what already works—seniors, TAs, advisors, official channels—so you get answers without another session. Think of me as bandwidth-efficient: when you ping, I route; when an answer lands, I acknowledge; when something’s unclear, I follow up until it’s usable. As an international student, I’m comfortable bridging contexts while centering core SoC priorities. No sweeping promises—just steady, transparent communication and the unglamorous coordination that keeps things moving. If that sounds like the kind of bridge you want this year, I’d be honoured to serve.
+        </p>
+      );
+    },
+  },
+  {
+    id: 16,
+    description: 'Director, Marketing Candidate',
+    title: 'Li Xueyi Joanne',
+    src: '/elections/candidates/joanne.jpg',
+    ctaText: 'View More',
+    year: 'Year 1',
+    major: 'Business Analytics',
+    content: () => {
+      return (
+        <p>
+          All things nice and everything spice starts here. If I'm elected, I will: 
+            • Take initiative to secure relevant sponsorships for the committee's events for the club so as to elevate the experience of members who will be participating in the aforementioned events. 
+            • Create even more cool and relatable merchandise designs and types like cute Soccat goods, SoC-relatable laptop stickers or stylish apparel, keeping in mind your thoughts and opinions. I'll take into consideration the ideas members of the club — fellow students of SoC — have, and ensure well-designed merch reaches you, so you can wear and use them with pride as a club member. 
+            
+          My experience with merch creation as a designer, as well as with leadership and event planning in my previous post as part of the Executive Committee for my club, will help me bring these to life for you.
         </p>
       );
     },

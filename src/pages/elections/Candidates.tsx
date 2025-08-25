@@ -87,7 +87,7 @@ export function Candidates() {
 
   return (
     <section className='elections h-full gap-4'>
-      <Results />
+      {/* <Results /> */}
       <h1 className='title'>Candidates</h1>
       <p className='text-neutral-500 text-xl text-center'>
         See the candidates running for the NUS Students&apos; Computing Club
