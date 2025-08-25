@@ -400,10 +400,10 @@ export const cards = [
     id: 9,
     description: 'Director, Rag Candidate',
     title: 'Niles Loh Xiang Xing',
-    src: '/elections/candidates/niles_loh.jpg',
+    src: '/elections/candidates/niles_loh.jpeg',
     ctaText: 'View More',
     year: 'Year 1',
-    major: 'Computer Science',
+    major: 'Computer Engineering',
     content: () => {
       return (
         <p>
@@ -443,7 +443,7 @@ export const cards = [
   },
   {
     id: 11,
-    description: 'General Secretary Candidate',
+    description: 'Director, Academic Liaison Candidate',
     title: 'Adhiraj Gupta',
     src: '',
     ctaText: 'View More',
@@ -497,7 +497,7 @@ export const cards = [
     id: 14,
     description: 'Director, FOP Candidate',
     title: 'Natalie Kirana Cher',
-    src: '/elections/candidates/.jpg',
+    src: '',
     ctaText: 'View More',
     year: '',
     major: '',
@@ -512,7 +512,7 @@ export const cards = [
     id: 15,
     description: 'Director, Academic Liaison Candidate',
     title: 'Ma Mingyang',
-    src: '/elections/candidates/ma_mingyang.jpg',
+    src: '/elections/candidates/ma_mingyang.JPG',
     ctaText: 'View More',
     year: 'Year 1',
     major: 'Computer Science',
@@ -528,7 +528,7 @@ export const cards = [
     id: 16,
     description: 'Director, Marketing Candidate',
     title: 'Li Xueyi Joanne',
-    src: '/elections/candidates/joanne.jpg',
+    src: '/elections/candidates/joanne.png',
     ctaText: 'View More',
     year: 'Year 1',
     major: 'Business Analytics',
@@ -540,6 +540,22 @@ export const cards = [
             • Create even more cool and relatable merchandise designs and types like cute Soccat goods, SoC-relatable laptop stickers or stylish apparel, keeping in mind your thoughts and opinions. I'll take into consideration the ideas members of the club — fellow students of SoC — have, and ensure well-designed merch reaches you, so you can wear and use them with pride as a club member. 
             
           My experience with merch creation as a designer, as well as with leadership and event planning in my previous post as part of the Executive Committee for my club, will help me bring these to life for you.
+        </p>
+      );
+    },
+  },
+  {
+    id: 17,
+    description: 'General Secretary Candidate',
+    title: 'Atharva Shukla',
+    src: '',
+    ctaText: 'View More',
+    year: '',
+    major: '',
+    content: () => {
+      return (
+        <p>
+
         </p>
       );
     },
