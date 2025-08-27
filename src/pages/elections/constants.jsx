@@ -495,21 +495,6 @@ export const cards = [
   },
   {
     id: 14,
-    description: 'Director, FOP Candidate',
-    title: 'Natalie Kirana Cher',
-    src: '',
-    ctaText: 'View More',
-    year: '',
-    major: '',
-    content: () => {
-      return (
-        <p>
-        </p>
-      );
-    },
-  },
-  {
-    id: 15,
     description: 'Director, Academic Liaison Candidate',
     title: 'Ma Mingyang',
     src: '/elections/candidates/ma_mingyang.JPG',
@@ -525,7 +510,7 @@ export const cards = [
     },
   },
   {
-    id: 16,
+    id: 15,
     description: 'Director, Marketing Candidate',
     title: 'Li Xueyi Joanne',
     src: '/elections/candidates/joanne.png',
@@ -545,17 +530,25 @@ export const cards = [
     },
   },
   {
-    id: 17,
+    id: 16,
     description: 'General Secretary Candidate',
     title: 'Atharva Shukla',
-    src: '',
+    src: '/elections/candidates/atharva_shukla.JPG',
     ctaText: 'View More',
-    year: '',
-    major: '',
+    year: 'Year 1',
+    major: 'Computer Engineering',
     content: () => {
       return (
         <p>
-
+          Ever heard of a human checksum? That’s me, Atharva! A Y1 CEG & Quant Finance student catching off-by-ones and aligning parts…
+          
+          I’ve led STEM/Coding Clubs with hackathons and a mentorship ladder so no one learns alone. I also founded GoLaah, a circular-economy platform that rehomes items—growing it through collaborations and pitching to CEOs, founders, and VCs.
+          
+          That builder’s mindset met the SoC community at FFC’25, where I watched quiet freshmen become teammates and strong ops turn excitement into belonging. I’m running for General Secretary to scale that spark.
+          
+          I turn energy into systems—a calendar that matches reality, and action items that stick—so projects advance, freeing YOU to build, collaborate, and enjoy the club! Expect clean records, quick replies, and handovers that last. People first. Clear structure. Consistent results.
+          
+          General Secretary is my first choice—but I’m also ready to serve in other roles and contribute wherever the club needs me!
         </p>
       );
     },
