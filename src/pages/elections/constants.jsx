@@ -382,22 +382,6 @@ export const cards = [
   },
   {
     id: 8,
-    description: 'Finance Secretary Candidate',
-    title: 'Goh Tze Hao, Xander',
-    src: '/elections/candidates/xander.jpg',
-    ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Computer Science',
-    content: () => {
-      return (
-        <p>
-          Don't you love money? So do I! Hello! My name is Xander, a Year 1 Computer Science student and I am running for Finance Secretary in the Computing Club committee. If elected, you will not have to worry about your faculty funds for I will ensure that every dollar is accounted for and fairly used for any event as a reliable and upright member. Beyond numbers, I intend to give my all in creating a more well-bonded Computing community for everyone, just like what I had experienced through Rag and Flag, and provide fresh opportunities for all to shine. I hope to play a significant part in your SoC journey by making your academic year enjoyable and iconic. Don’t be shy and feel free to chat with me if you see me around school. Just like how every cent matter, every one of your voices matter too!
-        </p>
-      );
-    },
-  },
-  {
-    id: 9,
     description: 'Director, Rag Candidate',
     title: 'Niles Loh Xiang Xing',
     src: '/elections/candidates/niles_loh.jpeg',
@@ -420,7 +404,7 @@ export const cards = [
     },
   },
   {
-    id: 10,
+    id: 9,
     description: 'Director, Welfare Candidate',
     title: 'Eu Guang En Joshua',
     src: '/elections/candidates/joshua_eu.jpg',
@@ -442,7 +426,7 @@ export const cards = [
     },
   },
   {
-    id: 11,
+    id: 10,
     description: 'Director, Academic Liaison Candidate',
     title: 'Adhiraj Gupta',
     src: '',
@@ -458,7 +442,7 @@ export const cards = [
     },
   },
   {
-    id: 12,
+    id: 11,
     description: 'Deputy Director, Sports Candidate',
     title: 'Jeyaraj Justin',
     src: '/elections/candidates/jeyaraj_justin.jpg',
@@ -474,27 +458,7 @@ export const cards = [
     },
   },
   {
-    id: 13,
-    description: 'Deputy Director, Welfare Candidate',
-    title: 'Simon Christian Luigi Soriano',
-    src: '/elections/candidates/simon.jpg',
-    ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Computer Science',
-    content: () => {
-      return (
-        <p>
-          Hi, I'm Simon, aiming to be your Deputy Director of Welfare. The stereotype of SOC students as 'sleepless zombies' working 24/7 needs to change. Under my jurisdiction, this stigma will be dismantled, and your efforts will be rewarded.
-          
-          I am a firm believer of concrete welfare initiatives: multiple welfare days throughout your university course, not just one. Imagine welfare fairs, tech freebies, and SOC merch! With such initiatives, I will do my best to make sure you are proud to be a computing student, ensuring mental breaks and recognition for your hard work.
-          
-          If you feel that SOC students are deserving of such welfare, put your faith in me. Together, we can create a new era of welfare for all.
-        </p>
-      );
-    },
-  },
-  {
-    id: 14,
+    id: 12,
     description: 'Director, Academic Liaison Candidate',
     title: 'Ma Mingyang',
     src: '/elections/candidates/ma_mingyang.JPG',
@@ -510,7 +474,7 @@ export const cards = [
     },
   },
   {
-    id: 15,
+    id: 13,
     description: 'Director, Marketing Candidate',
     title: 'Li Xueyi Joanne',
     src: '/elections/candidates/joanne.png',
@@ -530,7 +494,7 @@ export const cards = [
     },
   },
   {
-    id: 16,
+    id: 14,
     description: 'General Secretary Candidate',
     title: 'Atharva Shukla',
     src: '/elections/candidates/atharva_shukla.JPG',
