@@ -298,22 +298,6 @@ export const cards = [
   },
   {
     id: 3,
-    description: 'Director, Academic Liaison Candidate',
-    title: 'Rohan Varatharajan',
-    src: '/elections/candidates/rohanvaratharajan.jpg',
-    ctaText: 'View More',
-    year: 'Year 1',
-    major: 'Business Analytics',
-    content: () => {
-      return (
-        <p>
-          
-        </p>
-      );
-    },
-  },
-  {
-    id: 4,
     description: 'President Candidate',
     title: 'Chen Dong Jun',
     src: '/elections/candidates/chen_dong_jun.png',
@@ -333,7 +317,7 @@ export const cards = [
     },
   },
   {
-    id: 5,
+    id: 4,
     description: 'General Secretary Candidate',
     title: 'Chee Hann Yu',
     src: '/elections/candidates/chee_hann_yu.jpg',
@@ -349,7 +333,7 @@ export const cards = [
     },
   },
   {
-    id: 6,
+    id: 5,
     description: 'Deputy Finance Secretary Candidate',
     title: 'Jha Satwik',
     src: '/elections/candidates/satwik.jpg',
@@ -365,7 +349,7 @@ export const cards = [
     },
   },
   {
-    id: 7,
+    id: 6,
     description: 'Finance Secretary Candidate',
     title: 'Jovi Chow Yi Kit',
     src: '/elections/candidates/jovi_chow.jpg',
@@ -381,7 +365,7 @@ export const cards = [
     },
   },
   {
-    id: 8,
+    id: 7,
     description: 'Director, Rag Candidate',
     title: 'Niles Loh Xiang Xing',
     src: '/elections/candidates/niles_loh.jpeg',
@@ -404,7 +388,7 @@ export const cards = [
     },
   },
   {
-    id: 9,
+    id: 8,
     description: 'Director, Welfare Candidate',
     title: 'Eu Guang En Joshua',
     src: '/elections/candidates/joshua_eu.jpg',
@@ -426,7 +410,7 @@ export const cards = [
     },
   },
   {
-    id: 10,
+    id: 9,
     description: 'Director, Academic Liaison Candidate',
     title: 'Adhiraj Gupta',
     src: '',
@@ -442,7 +426,7 @@ export const cards = [
     },
   },
   {
-    id: 11,
+    id: 10,
     description: 'Deputy Director, Sports Candidate',
     title: 'Jeyaraj Justin',
     src: '/elections/candidates/jeyaraj_justin.jpg',
@@ -458,7 +442,7 @@ export const cards = [
     },
   },
   {
-    id: 12,
+    id: 11,
     description: 'Director, Academic Liaison Candidate',
     title: 'Ma Mingyang',
     src: '/elections/candidates/ma_mingyang.JPG',
@@ -474,7 +458,7 @@ export const cards = [
     },
   },
   {
-    id: 13,
+    id: 12,
     description: 'Director, Marketing Candidate',
     title: 'Li Xueyi Joanne',
     src: '/elections/candidates/joanne.png',
@@ -494,7 +478,7 @@ export const cards = [
     },
   },
   {
-    id: 14,
+    id: 13,
     description: 'General Secretary Candidate',
     title: 'Atharva Shukla',
     src: '/elections/candidates/atharva_shukla.JPG',
