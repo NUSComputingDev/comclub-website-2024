@@ -25,7 +25,7 @@ export default function Results() {
             <div className='flex items-center space-x-2'>
               <div className='flex flex-col'>
                 <CardTitle className='text-base font-bold'>
-                  2024 Computing Club Election Results
+                  2025 Computing Club Election Results
                 </CardTitle>
                 <CardDescription className='text-sm'>
                   Results of the recent election
@@ -43,7 +43,7 @@ export default function Results() {
                   <UsersIcon className='w-4 h-4 text-gray-500 dark:text-gray-400' />
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>354</div>
+                  <div className='text-2xl font-bold'>247</div>
                 </CardContent>
               </Card>
               <Card>
@@ -54,7 +54,7 @@ export default function Results() {
                   <UsersIcon className='w-4 h-4 text-gray-500 dark:text-gray-400' />
                 </CardHeader>
                 <CardContent>
-                  <div className='text-2xl font-bold'>14</div>
+                  <div className='text-2xl font-bold'>13</div>
                 </CardContent>
               </Card>
             </div>
