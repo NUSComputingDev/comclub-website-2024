@@ -17,17 +17,9 @@ import {
 } from 'date-fns';
 import articles from './articles.json';
 import SearchResult from './SearchResult';
+import { Article, parseArticles } from './zod';
 
-type Article = {
-  title: string;
-  body: string;
-  link: string;
-  imgSrc: string;
-  startDatetime: string;
-  endDatetime: string;
-};
-
-const articlesData: Article[] = Object.values(articles);
+const articlesData: Article[] = Object.values(parseArticles(articles));
 
 function classNames(...classes: (string | boolean | null)[]) {
   return classes.filter(Boolean).join(' ');
@@ -170,7 +162,7 @@ export default function Calendar() {
                         end: startOfDay(parseISO(article.endDatetime)),
                       }),
                     ) && (
-                      <div className='w-1 h-1 rounded-full bg-sky-500'></div>
+                      <div className='w-1 h-1 rounded-full bg-sky-500'/>
                     )}
                   </div>
                 </div>
