@@ -2,36 +2,36 @@
   "comaraderie": {
     "department": "SD/SL",
     "title": "COMaraderie",
-    "body": "todo",
-    "link": "todo",
-    "imgSrc": "todo",
+    "body": "Comaraderie is an annual event held by SoC to help students kickstart the new semester with new friendships and experiences after the long winter break. Participants form groups of 5 and complete various challenges to win attractive prizes, making new friends along the way.",
+    "link": "comaraderie",
+    "imgSrc": "/announcements/comaraderie.jpg",
     "startDatetime": "2026-02-02T00:00:00+08:00",
     "endDatetime": "2026-02-06T23:59:59+08:00"
   },
   "career_launchpad": {
     "department": "SD/SL",
     "title": "Career Launchpad",
-    "body": "todo",
-    "link": "todo",
-    "imgSrc": "todo",
+    "body": "Career Launchpad 2026 is an initiative by the NUS Computing Club's Academic Liaison Cell aimed at preparing students for successful careers. It includes skill-building workshops, company talks, and alumni sharing sessions, focusing on delivering insights and meaningful takeaways to empower attendees in their career journeys.",
+    "link": "career-launchpad",
+    "imgSrc": "/announcements/career-launchpad.jpg",
     "startDatetime": "2026-02-10T00:00:00+08:00",
     "endDatetime": "2026-02-13T23:59:59+08:00"
   },
   "fsc": {
     "department": "SD/SL",
     "title": "Freshmen Social Camp",
-    "body": "todo",
-    "link": "todo",
-    "imgSrc": "todo",
+    "body": "🎭⚡️WELCOME TO FRESHMEN SOCIAL CAMP 2025: THE OLYMPIAN NETWORK⚡️🎭🗓️Dates: 16 – 19 June 2026📍Location: NUS School of Computing & Palawan Beach\n👤Open to: All incoming NUS SoC Freshmen\n\n🧠💻Mount Olympus has gone digital… and you’ve been summoned.\nIn an alternate 2025, the gods of Olympus no longer rule from thrones but command an immense Olympian Network—a divine computing system balancing life, logic, and destiny. But when a Titan-forged virus strikes the Core of Fate, chaos erupts. The gods turn to the only mortals with the skills to fight back... NUS Computing Freshmen.\n\nWill you rise as a champion and restore balance to the realm?\n\n💬Make friends. Forge bonds. And leave your legacy as a Protector of Olympus.\n\n🌟 Whether you’re a logic wizard, a code crafter, a design visionary, or just here to vibe — FSC 2025 is your chance to start your NUS journey with epic memories and legendary friendships.\n\n✨ Sign up now — Olympus awaits you.",
+    "link": "fsc",
+    "imgSrc": "/announcements/fsc.JPG",
     "startDatetime": "2026-06-16T00:00:00+08:00",
     "endDatetime": "2026-06-19T23:59:59+08:00"
   },
   "fow": {
     "department": "SD/SL",
     "title": "Freshmen Orientation Week",
-    "body": "todo",
-    "link": "todo",
-    "imgSrc": "todo",
+    "body": "🍄🎮 FRESHMEN ORIENTATION WEEK 2025: SUPER SOC BROS! 🎮🍄\n🗓️ 21 – 24 July 2025\n📍 NUS School of Computing & Palawan Beach\n👤 Open to all incoming NUS SoC Freshmen\n\n🎲✨ It's time to press START on your greatest adventure yet!\n\nBowser’s been up to no good — and the Mushroom Kingdom needs fresh new heroes to jump in, team up, and bring the sparkle back! 🌟 From secret missions to wild races and mystery challenges, FOW 2025 is packed with surprises at every turn (no warp pipes needed).\n\n👯‍♂️ Whether you're a speedy racer, a puzzle master, or just really good at dodging flying shells, there’s a place for you in this epic quest.\n\n🍕 Meet your crew, chase those golden moments, and stack up memories like they're stacks of gold coins!\n\nExpect laughter, a little chaos, and maybe even a few Power-Ups along the way. 🍄✨\n\n🚀 Get ready, freshies — adventure is loading. Sign up now and let's-a gooooo!",
+    "link": "fow",
+    "imgSrc": "/announcements/fow.JPG",
     "startDatetime": "2026-07-21T00:00:00+08:00",
     "endDatetime": "2026-07-24T23:59:59+08:00"
   },
@@ -47,9 +47,9 @@
   "ffc": {
     "department": "SD/SL",
     "title": "Freshmen Finale Camp",
-    "body": "todo",
-    "link": "todo",
-    "imgSrc": "todo",
+    "body": "🌀🔥 WELCOME TO FRESHMAN FINALE CAMP 2025: RECLAIM YOUR VIRTUE 🔥🌀\n🗓 3 – 5 August 2025\n📍 NUS School of Computing\n👥 Open to: All SoC Freshmen\n\nLong ago, the four virtues—Courage, Wisdom, Harmony, and Ambition—shaped humanity’s path. Now, their elemental legacy lies hidden beneath forgotten memories… and it's up to you to rediscover your core.\n\n🎇 FFC 2025 is the final stop in your orientation journey—and the most legendary.\n✨ Sorted by the mystical Sorting Abstraction™, you’ll be called to one of four houses—Valoria, Luminara, Equinox, or Aspira—and thrust into a three-day quest across mind-bending puzzles, high-stakes challenges, and unmissable games.\n\nFrom cryptic escape rooms to the electrifying Grid Game Madness, and a showstopping Talent Showcase, your house will rise or fall by how boldly you collaborate, compete, and connect.\n\n🌙 And on the final night?\nThe arena comes alive with the ultimate Finale Rave, awards, and the crown jewel—your very own Taskmaster video showcase.\n\n🎭 Whether you're a riddle-solver, chaos agent, team player, or just here to have one last hurrah—FFC 2025 is your chance to:\n\n🧠 Find your people.\n🔥 Forge your identity.\n🌟 Finish your freshman journey with a BANG.\n\n🎟️ The Sorting Abstraction is ready. Are you?\n\n➡️ Sign up now. The elements await.",
+    "link": "ffc",
+    "imgSrc": "/announcements/ffc.JPEG",
     "startDatetime": "2026-08-03T00:00:00+08:00",
     "endDatetime": "2026-08-05T23:59:59+08:00"
   },
@@ -101,9 +101,9 @@
   "computing_bash": {
     "department": "SD/SL",
     "title": "Computing Bash",
-    "body": "todo",
-    "link": "todo",
-    "imgSrc": "todo",
+    "body": "COMBASH is the signature night event that officially welcomes you into the School of Computing family! \n \nGet ready for a night of dazzling performances, exciting games, and an electric atmosphere! COMBASH is here to not only celebrate the start of your university life, but also the friendships you’ve made throughout orientations and RAG!",
+    "link": "bash",
+    "imgSrc": "/announcements/bash.JPG",
     "startDatetime": "2026-08-26T00:00:00+08:00",
     "endDatetime": "2026-08-26T23:59:59+08:00"
   },
