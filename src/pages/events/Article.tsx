@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import articles from './articles.json' with {type: 'json'};
+import articles from './articles.json';
 import WindowCard from '../../layout/WindowCard';
 import './Article.css';
+import { parseArticles } from './zod';
 
 interface ArticleProps {
   title: string;
@@ -15,7 +16,7 @@ function Article() {
   const [content, setContent] = useState<ArticleProps>();
 
   useEffect(() => {
-    setContent(articles[articleLink!]);
+    setContent(parseArticles(articles)[articleLink!]);
   }, [articleLink]);
 
   return (
