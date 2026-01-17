@@ -1,131 +1,131 @@
 {
   "Presidency": [
     {
-      "name": "Jolyn Leow",
+      "name": "Chen Dong Jun",
       "role": "President"
     },
     {
-      "name": "Ng Le Xuan",
+      "name": "Chee Hann Yu",
       "role": "General Secretary"
     },
     {
-      "name": "Ophelia Teo",
+      "name": "Daryl Leong",
       "role": "Deputy General Secretary"
     },
     {
-      "name": "Kong Shi Ting",
+      "name": "Junrong Mu",
       "role": "Tech Lead"
     },
     {
-      "name": "Jeriel Chan",
-      "role": "Deputy Tech Lead"
-    },
-    {
-      "name": "Chen Dong Jun",
+      "name": "Jovi Chow Yi Kit",
       "role": "Finance Secretary"
     },
     {
-      "name": "Jamie Ho",
+      "name": "Jha Satwik",
       "role": "Deputy Finance Secretary"
     }
   ],
   "External Relations": [
     {
-      "name": "Wilson Soon",
+      "name": "Li Xueyi Joanne",
       "role": "Vice President"
     },
     {
-      "name": "Bawa Aryan Munish",
+      "name": "Shermaine Peh Cher Min",
       "role": "Director, Publicity"
     },
     {
-      "name": "Lim Jun Fun",
+      "name": "Yeo Xun Hui Shelby",
       "role": "Deputy Director, Publicity"
     },
     {
-      "name": "Daryl Leong",
+      "name": "Yang Siqian",
       "role": "Director, Marketing"
     },
     {
-      "name": "Chee Hann Yu",
+      "name": "Feliciano Margaret Elisha Fontanilla",
       "role": "Deputy Director, Marketing (Merchandise)"
     },
     {
-      "name": "Kayla Ong",
+      "name": "Ernest Tan Jer Jian",
       "role": "Deputy Director, Marketing (Sponsorship)"
     }
   ],
   "Internal Relations": [
     {
-      "name": "Jha Satwik",
+      "name": "Shananth Sivakumar",
       "role": "Vice President"
     },
     {
-      "name": "Ravichandran Gokul",
+      "name": "Gullapalli Chetan",
       "role": "Director, Welfare"
     },
     {
-      "name": "Shananth Sivakumar",
+      "name": "Chulpaibul Jirawan",
       "role": "Deputy Director, Welfare"
     },
     {
-      "name": "Josiah Praeman",
+      "name": "Jeyaraj Justin",
       "role": "Director, Sports"
     },
     {
-      "name": "Hasan Ahmed Nasif",
+      "name": "Narayanamurthy Sriram",
       "role": "Deputy Director, Sports"
     }
   ],
   "Student Development": [
     {
-      "name": "Basil Boh",
+      "name": "Choong Jing Xiang",
       "role": "Vice President"
     },
     {
-      "name": "Sun Jiaen",
+      "name": "Atharva Shukla",
       "role": "Director, Academic Liaison"
     },
     {
-      "name": "Yang Zehao",
+      "name": "Ma Mingyang",
       "role": "Deputy Director, Academic Liaison"
     },
     {
-      "name": "Khoo Xuren",
+      "name": "Adhiraj Gupta",
+      "role": "Deputy Director, Academic Liaison"
+    },
+    {
+      "name": "Lim Zi Shen",
       "role": "Director, Community Engagement"
     },
     {
-      "name": "Choong Jing Xiang",
-      "role": "Director, Rag & Flag"
+      "name": "Niles Loh Xiang Xing",
+      "role": "Director, Rag"
     },
     {
-      "name": "Tay Shu Sui",
-      "role": "Deputy Director, Rag & Flag"
+      "name": "Ng Ting Hui",
+      "role": "Director, Flag"
     }
   ],
   "Student Life": [
     {
-      "name": "Chin Cherng Yuen",
+      "name": "Neo Ryan",
       "role": "Vice President"
     },
     {
-      "name": "Ryan Neo",
-      "role": "Director, Freshman Orientation Projects"
+      "name": "Eu Guang En Joshua",
+      "role": "Director, Freshman Social Camp"
     },
     {
-      "name": "Zowie Ong",
-      "role": "Deputy Director, Freshman Orientation Projects"
+      "name": "Yao Wei Chua",
+      "role": "Director, Freshman Orientation Week"
     },
     {
-      "name": "Gowri Sumesh Menon",
-      "role": "Deputy Director, Freshman Orientation Projects"
+      "name": "Teo Kai Xin",
+      "role": "Director, Freshman Finale Camp"
     },
     {
-      "name": "Mu Junrong",
+      "name": "Zhang Jiayi",
       "role": "Director, Student Engagement"
     },
     {
-      "name": "Shang Jiatong",
+      "name": "Yang Boxiang",
       "role": "Deputy Director, Student Engagement"
     }
   ]
